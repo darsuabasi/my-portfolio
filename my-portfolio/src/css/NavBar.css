@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navUl {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.navLi {
+    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    flex-direction: row;
+    color: black;
+    
+}
+
+
+
+
+
