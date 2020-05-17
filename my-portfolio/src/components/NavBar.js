@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom' 
+import '../css/NavBar.css'
 
 const NavBar = () => {
       return(
         
-          <div className="navBar"> 
+          <div className="navbar"> 
             <ul className="navUl">
               <li className="navLi">
                 <NavLink exact to="/" className="nav-selected">
@@ -23,7 +24,7 @@ const NavBar = () => {
                   Projects
                 </NavLink>
               </li>
-              
+
               <li className="navLi">
                 <NavLink exact to="/blog" className="nav-selected">
                   Blog
