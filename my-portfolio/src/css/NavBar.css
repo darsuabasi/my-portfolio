@@ -9,31 +9,29 @@ body {
 }
 
 .navbar {
-    display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 1px;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     color: black;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    padding-top: 1.5rem;
 }
 
 .navUl {
     display: flex;
     margin-right: 30px;
-    flex-direction: row;
-    justify-content: flex-end;
+    float: right;  
 }
 
 
 .navLi {
     
     display: flex;
-    justify-content: flex-end;
-    margin-left: 10px;
-    flex-direction: row;
-    color: black;
     
+    margin-left: 10px;
+    
+    color: black;
 }
 
 
