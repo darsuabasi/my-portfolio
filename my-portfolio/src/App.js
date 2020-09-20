@@ -10,6 +10,7 @@ import Blog from './components/Blog'
 import Photography from './components/Photography'
 import Contact from './components/Contact'
 import Error from './components/Error'
+import Landing from './components/Landing';
 
 
 function App() {
@@ -18,7 +19,12 @@ function App() {
       <BrowserRouter> 
         <NavBar/> 
           <Switch>
+
             <Route exact path={"/"}>
+              <Landing/>
+            </Route>
+            
+            <Route exact path={"/home"}>
               <Home/>
             </Route>
     
