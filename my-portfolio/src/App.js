@@ -34,14 +34,16 @@ function App() {
                     <Route exact path={"/about"}>
                       <About/>
                     </Route>
+
+                    <Route exact path={"/projects"}>
+                      <Projects/>
+                    </Route>
                   {/* </Switch> */}
                 </AnimatePresence>
         
         
         
-                <Route exact path={"/projects"}>
-                  <Projects/>
-                </Route>
+                
         
                 <Route exact path={"/blog"}>
                   <Blog/>
