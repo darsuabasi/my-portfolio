@@ -15,7 +15,7 @@ import { AnimatePresence } from "framer-motion";
 
 
 
-function App() {
+function App({ Component, pageProps, router }) {
   // const location = useLocation();
 
   return (
@@ -24,38 +24,56 @@ function App() {
         
         
           <Switch>
+            <div className="mainApp">
+            
+              <AnimatePresence exitBeforeEnter>
+                <Switch>
 
-            <AnimatePresence>
-                  {/* <Switch location={location} key={location.pathname}> */}
                   <Route exact path={"/"}>
-                      <Landing/>
-                    </Route>
+                    <Landing/>
+                  </Route>
         
-                    <Route exact path={"/about"}>
-                      <About/>
-                    </Route>
+                  <Route exact path={"/about"}>
+                    <About/>
+                  </Route>
 
-                    <Route exact path={"/projects"}>
-                      <Projects/>
-                    </Route>
-                  {/* </Switch> */}
-                </AnimatePresence>
+                  <Route exact path={"/projects"}>
+                    <Projects/>
+                  </Route>
+
+                  <Route exact path={"/blog"}>
+                    <Blog/>
+                  </Route>
+        
+                  <Route excat path={"/photography"}>
+                    <Photography/>
+                  </Route>
+        
+                  <Route exact path={"/contact"}>
+                    <Contact/>
+                  </Route>
+        
+                  <Route exact path={"*"}>
+                    <Error/>
+                  </Route>
+                </Switch>
+              </AnimatePresence>
+            </div>
+
+            {/* <Route
+                  path={[
+                    "/about",
+                    "/projects",
+                    "/blog",
+                    "/photography",
+                    "/contact",
+                  ]}
+                >
+
+                </Route> */}
         
         
-        
-                
-        
-                <Route exact path={"/blog"}>
-                  <Blog/>
-                </Route>
-        
-                <Route excat path={"/photography"}>
-                  <Photography/>
-                </Route>
-        
-                <Route exact path={"/contact"}>
-                  <Contact/>
-                </Route>
+
         
                 <Route exact path={"*"}>
                   <Error/>
