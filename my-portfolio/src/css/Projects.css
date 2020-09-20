@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ProjectMain {
+    background-image: url('../assets/ProjectsBG4.png');
+    background-repeat: space;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    margin: auto;
+}
+
+.projectDiv {
+    width: 100%;
+    width: 23%;
+    /* grid-gap: 3.5rem; */
+    display: flex;
+    /* grid-column-gap: 12px; */
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: center;
+    /* margin-bottom: 3.5rem; */
+}
+
+.mostRecentProjects {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.olderProjects {
+    
+}
