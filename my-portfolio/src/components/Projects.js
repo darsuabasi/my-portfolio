@@ -1,8 +1,13 @@
 import React from 'react';
 // import Typical from 'react-typical';
-import '../css/Projects.css'
+import '../css/Projects.css';
+import { Link } from 'react-router-dom'
 import NavBar from './NavBar';
-import Typing from 'react-typing-animation'
+import Typing from 'react-typing-animation';
+import zoovioApp from '../assets/zoovioApp.png';
+import cloutApp from '../assets/cloutApp.png';
+import aatgApp from '../assets/aatgApp.png';
+
 
 const Projects = () => {
 
@@ -27,13 +32,20 @@ const Projects = () => {
 
             <div className="projectDiv">
               <div className="mostRecentProjects">
-
+                  
+                <h1> Most Recent Projects: 3 months - current</h1>
                 <div className="projectOne">
                   <h2> ZooVio</h2>
+                  <img className="appScreenshots" style={{width:"450px"}} src={zoovioApp}/>
+                  <a href="https://zoovio.netlify.app/">Keep Track of Your Pets!</a>
+                  <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
+
                 </div>
 
                 <div className="projectTwo">
                   <h2> All About the Green </h2>
+                  <img className="appScreenshots" style={{width:"450px", height:"250px"}} src={aatgApp}/>
+                  <a href="https://github.com/darsuabasi/AllAboutTheGreen ">Check out the code.</a>
                 </div>
 
                 <div className="projectThree">
@@ -42,9 +54,11 @@ const Projects = () => {
               </div> 
 
               <div className="olderProjects">
-
+                    
+              <h1> Older Projects: 4 months - 1 year</h1>
                 <div className="projectFour">
                   <h2> Let's Go</h2>
+                  <a href="https://github.com/darsuabasi/Pursuit-Core-Web-React-Group-Project">Check out the code.</a>
                 </div>
 
                 <div className="projectFive">
@@ -53,6 +67,7 @@ const Projects = () => {
 
                 <div className="projectSix">
                   <h2> Clout</h2>
+                  <img className="appScreenshots" style={{width:"450px", height:"250px"}} src={cloutApp}/>
                 </div>
 
               </div>     
