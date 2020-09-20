@@ -1,9 +1,7 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter, useLocation } from 'react-router-dom'
-// import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
-// import Home from './components/Home'
 import About from './components/About'
 import Projects from './components/Projects'
 import Blog from './components/Blog'

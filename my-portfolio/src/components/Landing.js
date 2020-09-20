@@ -1,7 +1,5 @@
 import React from 'react';
 import { useHistory, Link, router } from 'react-router-dom';
-import { Portal } from '@material-ui/core';
-import '../css/Landing.css';
 import twitter from '../assets/twitter.svg';
 import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
@@ -9,6 +7,7 @@ import github from '../assets/github.svg';
 import Typing from 'react-typing-animation';
 import { pageTransition, pageVariants } from "../util/framerStyles";
 import { motion } from "framer-motion";
+import '../css/Landing.css';
 
 
 
