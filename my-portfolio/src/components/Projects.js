@@ -13,67 +13,71 @@ const Projects = () => {
 
   return (
     <div className="ProjectMain"> 
-      <NavBar/>
-        <div className="projectsSec">
-            <h1 className="styleProj"> 
-                Uduakabasi Codes
-            </h1>
+      <div className="navInProjects">
+        <NavBar/> 
+      </div>
 
-            <p className="skillsList"> Knowledgable in 
-                  [Node.js, 
-                  Express, 
-                  PostgresSQL, 
-                  React, 
-                  Postman, 
-                  PSequel, 
-                  CSS, 
-                  Firebase + Firestore]
-            </p>
+      <div>
+        <h1 className="styleProj"> 
+          Uduakabasi Codes
+        </h1>
+        <div>
+          <h1> Portfolio</h1>
+        </div>
+      </div>
 
+      <div className="projectsSec">
             <div className="projectDiv">
-              <div className="mostRecentProjects">
-                  
-                <h1> Most Recent Projects: 3 months - current</h1>
+              <div className="allProjects">
+
                 <div className="projectOne">
-                  <h2> ZooVio</h2>
-                  <img className="appScreenshots" style={{width:"450px"}} src={zoovioApp}/>
+                  <img className="appScreenshots" style={{width:"350px"}} src={zoovioApp}/>
+                  <h2 className="projectName top"> ZooVio</h2>
                   <a href="https://zoovio.netlify.app/">Keep Track of Your Pets!</a>
                   <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
-
+                  {/* <p className="bioForTheProject"> 
+                  Fullstack React web application where users can log in using Google Firebase, create and manage tasks 
+                  for their pets and view in calendar. Pet owners can search for vetenarians by using the app's search 
+                  bar feature [powered by Yelp's API]. 
+                  With Covoid restrictions still in place, pet owners can also instan message vetenarians [Google Firestore] 
+                  as well having virtual appointments [WebRTC + SimplePeer].
+                  Vetenarians can also log in utilizing the vet's portal. 
+                  However, due to security reasons, doctor's can not sign up at the momment.
+                  </p> */}
                 </div>
 
                 <div className="projectTwo">
-                  <h2> All About the Green </h2>
-                  <img className="appScreenshots" style={{width:"450px", height:"250px"}} src={aatgApp}/>
-                  <a href="https://github.com/darsuabasi/AllAboutTheGreen ">Check out the code.</a>
+                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={aatgApp}/>
+                  <h2 className="projectName top"> All About the Green </h2>
+                  <a href="https://github.com/darsuabasi/AllAboutTheGreen"> Check out the code.</a>
                 </div>
 
                 <div className="projectThree">
-                  <h2> Pinterest Clone</h2>
+                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={aatgApp}/>
+                  <h2 className="projectName top"> Pinterest Clone</h2>
+                  <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
                 </div>
-              </div> 
 
-              <div className="olderProjects">
-                    
-              <h1> Older Projects: 4 months - 1 year</h1>
                 <div className="projectFour">
-                  <h2> Let's Go</h2>
+                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={zoovioApp}/>
+                  <h2 className="projectName bottom"> Let's Go</h2>
                   <a href="https://github.com/darsuabasi/Pursuit-Core-Web-React-Group-Project">Check out the code.</a>
                 </div>
 
                 <div className="projectFive">
-                  <h2> Pokemon!</h2>
+                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={zoovioApp}/>
+                    <div className="divForProjName">
+                      <h2 className="projectName bottom"> Pokemon!</h2>
+                    </div>
+                  <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
                 </div>
 
                 <div className="projectSix">
-                  <h2> Clout</h2>
-                  <img className="appScreenshots" style={{width:"450px", height:"250px"}} src={cloutApp}/>
+                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={cloutApp}/>
+                  <h2 className="projectName bottom"> Clout</h2>
+                  <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
                 </div>
-
-              </div>     
-                    
-
-                    
+              </div>                     
             </div>
         </div>
     </div>  
