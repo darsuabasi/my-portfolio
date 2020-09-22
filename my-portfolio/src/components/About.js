@@ -50,7 +50,8 @@ const About = () => {
           <p style={{color:"#ffffff"}} className="aboutmepara"> - I'm a pretty rad photographer</p>
           <p style={{color:"#ffffff"}} className="aboutmepara"> - Let's talk skincare</p>
           <p style={{color:"#ffffff"}} className="aboutmepara"> - I occasionaly write stories on Wattpad.</p>
-          <p style={{color:"#ffffff"}} className="aboutmepara"> - Manga over Anime #DontJudge I'm a a reader</p>
+          <p style={{color:"#ffffff"}} className="aboutmepara"> - Manga over Anime #DontJudge I'm a reader</p>
+          <p style={{color:"#ffffff"}} className="aboutmepara"> - Yoga, by the beach </p>
       </div>   
     </div>
 
