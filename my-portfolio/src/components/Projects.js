@@ -18,12 +18,14 @@ const Projects = () => {
       </div>
 
       <div>
-        <h1 className="styleProj"> 
-          Uduakabasi Codes
-        </h1>
-        <div>
-          <h1> Portfolio</h1>
-        </div>
+        <Typing>
+          <h1 className="styleProj"> 
+            Uduakabasi Codes
+          </h1>
+        </Typing>
+        {/* <div>
+          <h1 className="portfolioHeading"> Portfolio</h1>
+        </div> */}
       </div>
 
       <div className="projectsSec">
@@ -34,7 +36,7 @@ const Projects = () => {
                   <img className="appScreenshots" style={{width:"350px"}} src={zoovioApp}/>
                   <h2 className="projectName top"> ZooVio</h2>
                   <a href="https://zoovio.netlify.app/">Keep Track of Your Pets!</a>
-                  <a href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
+                  <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio">Check out the code.</a>
                   {/* <p className="bioForTheProject"> 
                   Fullstack React web application where users can log in using Google Firebase, create and manage tasks 
                   for their pets and view in calendar. Pet owners can search for vetenarians by using the app's search 
