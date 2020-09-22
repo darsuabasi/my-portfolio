@@ -14,7 +14,8 @@
     float: right;
     float: right;
     height: 40% ;
-    margin-left: 44rem;
+    margin-left: 45rem;
+    margin-top: 1.5rem
 }
 
 .divForExtras {
@@ -54,6 +55,7 @@
     text-decoration: line-through #cb0000;
     font-size: 60px;
     font-weight: bolder;
+    margin-top: 2rem;
 }
 
 .aboutInfoHead:hover {
