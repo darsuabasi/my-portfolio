@@ -1,20 +1,40 @@
 import React from 'react';
-import NavBar from './NavBar'
+import NavBar from './NavBar';
+import Typing from 'react-typing-animation';
+import '../css/Skills.css'
 
-const Blog = () => {
+const Skills = () => {
 
   return (
-    <div className="blogMain">
-      <NavBar/>
+    <div className="skillsMain">
+      <div className="navInSkills">
+        <NavBar/> 
+      </div>
 
-      <div className="blogSec"> 
-        <h1 className="styleBlog"> 
-          Uduakabasi Chats 
-        </h1>
-      </div>   
+      <div className="skillsHeading">
+        <Typing>
+          <h1 className="styleSkills"> 
+            Uduakabasi Works
+          </h1>
+        </Typing>
+      </div>
+
+      <div className="skillsDiv">
+        <p className="skillsList"> Knowledgable in 
+                  [Node.js, 
+                  Express, 
+                  PostgreSQL, 
+                  React, 
+                  Postman, 
+                  PSequel, 
+                  CSS,
+                  Adobe Creative Suites, 
+                  Cloud Services: Firebase + Firestore]
+            </p>
+      </div>
     </div> 
   )
 }
 
 
-export default Blog;
+export default Skills;
