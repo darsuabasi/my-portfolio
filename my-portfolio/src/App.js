@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar'
 import About from './components/About'
 import Projects from './components/Projects'
-import Blog from './components/Blog'
+import Skills from './components/Skills'
 import Photography from './components/Photography'
 import Contact from './components/Contact'
 import Error from './components/Error'
@@ -39,8 +39,8 @@ function App({ Component, pageProps, router }) {
                     <Projects/>
                   </Route>
 
-                  <Route exact path={"/blog"}>
-                    <Blog/>
+                  <Route exact path={"/skills"}>
+                    <Skills/>
                   </Route>
         
                   <Route excat path={"/photography"}>
