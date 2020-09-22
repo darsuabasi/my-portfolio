@@ -5,40 +5,81 @@
 
 .ProjectMain {
     background-image: url('../assets/ProjectsBG4.png');
-    background-repeat: space;
-    width: 100%;
+    background-size: fill;
+    background-color: #f9b203;
+    background-repeat: none;
+    width: 100vw;
     height: 100vh;
     display: grid;
-    margin: auto;
+    /* margin: auto; */
+}
+
+.navInProjects  {
+    float: right;
+    height: 40% ;
+    margin-left: 45rem;
+    margin-top: 1.5rem
+
+}
+
+.projectsSec {
+    display: flex;
+
 }
 
 .projectDiv {
-    width: 100%;
-    width: 23%;
-    /* grid-gap: 3.5rem; */
     display: flex;
-    /* grid-column-gap: 12px; */
-    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.allProjects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 3rem;
+    margin-left: 16.5rem;
+    margin-top: 1rem;
+}
+
+.divForProjName {
     justify-content: center;
-    /* margin-bottom: 3.5rem; */
+    align-content: center;
+
 }
 
-.mostRecentProjects {
-    align-items: center;
-    justify-content: center;
-    margin-left: 65rem;
-    
-    
-}
-
-.olderProjects {
-    
-}
-
-.projectOne {
-    /* margin-left: 30rem; */
+.projectName {
+    align-content: center;
+    text-align: center;
 }
 
 .appScreenshots {
     border-radius: 2rem;
+}
+
+.projectName.top {
+    color: #cb0000;
+    color: #ffffff; 
+}
+
+.projectName.top:hover {
+    text-decoration: line-through #cb0000;
+}
+
+
+.projectName.bottom {
+    color: #ffffff;
+}
+
+.projectName.bottom:hover {
+    text-decoration: line-through #cb0000;
+}
+
+/* .bioForTheProject {
+    word-wrap: break-word;
+
+} */
+
+.projectOne {
+    overflow-wrap: break-word;
+    /* background-color: purple; */
+    width: 21.8rem;
 }
