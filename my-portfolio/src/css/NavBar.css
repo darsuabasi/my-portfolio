@@ -37,17 +37,17 @@ body {
 
 a.nav-selected.active {
     /* text-decoration: line-through #cb0000; */
-    text-decoration: line-through #cb0000;
-    color: whitesmoke;
+    text-decoration: line-through #ffffff;
+    color: #cb0000;
     font-size: xx-large;
-    /* font-weight: 700; */
+    font-weight: 700;
+    font-style: italic;
 }
 
 a.nav-selected {
     text-decoration: none;
     /* color: #f9b203; */
     color: #ffffff;
-    /* font-style: italic; */
 }
 
 a.nav-selected:hover {

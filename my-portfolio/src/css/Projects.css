@@ -19,6 +19,25 @@
     height: 40% ;
     margin-left: 45rem;
     margin-top: 1.5rem
+}
+
+.styleProj {
+    color: #cb0000;
+    margin-left: 3rem;
+    font-style: italic;
+}
+
+.styleProj:hover {
+    text-decoration: line-through #ffffff;
+}
+
+.portfolioHeading {
+    color: #cb0000;
+
+}
+
+.portfolioHeading:hover {
+    text-decoration: line-through #ffffff;
 
 }
 
@@ -51,10 +70,6 @@
     text-align: center;
 }
 
-.appScreenshots {
-    border-radius: 2rem;
-}
-
 .projectName.top {
     color: #cb0000;
     color: #ffffff; 
@@ -73,6 +88,12 @@
     text-decoration: line-through #cb0000;
 }
 
+.checkOutTheCode {
+    align-content: center;
+    text-align: center;
+
+}
+
 /* .bioForTheProject {
     word-wrap: break-word;
 
@@ -82,4 +103,8 @@
     overflow-wrap: break-word;
     /* background-color: purple; */
     width: 21.8rem;
+}
+
+.appScreenshots {
+    border-radius: 1.5rem;
 }
