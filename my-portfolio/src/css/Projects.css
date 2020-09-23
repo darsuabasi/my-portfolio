@@ -5,13 +5,13 @@
 
 .ProjectMain {
     background-image: url('../assets/ProjectsBG4.png');
-    background-size: fill;
+    background-size: 100%;
     background-color: #f9b203;
-    background-repeat: none;
-    width: 100vw;
+    /* background-repeat: none; */
     height: 100vh;
+    /* width: 100vw; */
     display: grid;
-    /* margin: auto; */
+    overflow: hidden;
 }
 
 .navInProjects  {
@@ -24,7 +24,9 @@
 .styleProj {
     color: #cb0000;
     margin-left: 3rem;
+    margin-top: 3%;
     font-style: italic;
+    position: static;
 }
 
 .styleProj:hover {
@@ -33,17 +35,14 @@
 
 .portfolioHeading {
     color: #cb0000;
-
 }
 
 .portfolioHeading:hover {
     text-decoration: line-through #ffffff;
-
 }
 
 .projectsSec {
     display: flex;
-
 }
 
 .projectDiv {
@@ -55,8 +54,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     grid-gap: 3rem;
-    margin-left: 16.5rem;
-    margin-top: 1rem;
+    margin-left: 16rem;
+    padding-top: 2.4%;
+    position: sticky;
 }
 
 .divForProjName {
@@ -70,41 +70,105 @@
     text-align: center;
 }
 
-.projectName.top {
+.checkOutTheCode {
+    align-content: center;
+    text-align: center;
+}
+
+.appLink {
     color: #cb0000;
-    color: #ffffff; 
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.appLink:hover {
+    text-decoration: line-through #ffffff;
+    color: #cb0000;
+}
+
+
+
+.projectName.top {
+    /* color: #ffffff; */
+    color: #cb0000; 
+    margin-top: 7%;
 }
 
 .projectName.top:hover {
-    text-decoration: line-through #cb0000;
+    text-decoration: line-through #ffffff;
 }
 
 
-.projectName.bottom {
+/* .projectName.bottom {
     color: #ffffff;
 }
 
 .projectName.bottom:hover {
     text-decoration: line-through #cb0000;
-}
+} */
 
 .checkOutTheCode {
     align-content: center;
     text-align: center;
-
+    color: #cb0000;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
 }
 
-/* .bioForTheProject {
-    word-wrap: break-word;
+.checkOutTheCode:hover {
+    text-decoration: line-through #ffffff;
+    color: #cb0000;
+}
 
-} */
-
-.projectOne {
+.bioForTheProject {
     overflow-wrap: break-word;
-    /* background-color: purple; */
     width: 21.8rem;
+    color: #ffffff;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 17px;
 }
+
+.bioForTheProject:hover {
+    color: #cb0000;
+}
+
+.whatsNext {
+    overflow-wrap: break-word;
+    width: 21.8rem;
+    padding-top: 1.5%;
+    color: transparent;
+    text-decoration: line-through #cb0000;
+    font-variant: small-caps;
+    font-weight: 700;
+    
+}
+
+.whatsNext:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .appScreenshots {
     border-radius: 1.5rem;
 }
+
+.appScreenshots:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+    transition:transform 1.5s ease;
+    transform: scale(1.2);
+    flex-grow: 1;
+    
+}
+
+.codeDiv {
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 2%;
+
+}
+
