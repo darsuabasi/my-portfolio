@@ -28,7 +28,8 @@ const About = () => {
           id="background-video"
           style={{ 
             position: "fixed", 
-            width: "100%",
+            width: "100vw",
+            // height:"120vh",
             left: 0,
             top: 0,
             ...backgroundCss }}
