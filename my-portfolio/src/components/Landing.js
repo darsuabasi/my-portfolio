@@ -46,20 +46,20 @@ const Landing = ({ Component, pageProps, router }) => {
 
                     <li lassName="socialOption">
                         <a href="https://github.com/darsuabasi">
-                            <img id="insta" className="logos4conatct" src={github} alt="github" />
+                            <img id="insta" className="logos4contact" src={github} alt="github" />
                         </a>
                     </li>
 
                     <li className="socialOption">
                         <a href="https://twitter.com/darsucodes">
-                            <img id="tweets" className="logos4conatct" src={twitter} alt="twitter" />
+                            <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
                             {/* <img src="https://img.icons8.com/fluent/100/000000/twitter.png"/> */}
                         </a>
                     </li>
 
                     <li lassName="socialOption">
                         <a href="https://www.instagram.com/darsu.chats/">
-                            <img id="insta" className="logos4conatct" src={instagram} alt="instagram" />
+                            <img id="insta" className="logos4contact" src={instagram} alt="instagram" />
                         </a>
                     </li>
 
@@ -67,7 +67,7 @@ const Landing = ({ Component, pageProps, router }) => {
 
                     <li lassName="socialOption">
                         <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/">
-                            <img id="linkd" className="logos4conatct" src={linkedin} alt="linkedin" />
+                            <img id="linkd" className="logos4contact" src={linkedin} alt="linkedin" />
                         </a>
                     </li>
 
