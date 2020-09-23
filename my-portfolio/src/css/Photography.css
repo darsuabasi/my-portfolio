@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.photographyMain {
+    background-image: url('../assets/PhotographyBG3.png');
+    background-position: sticky;
+    background-color: #f9b203;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+}
+
+.typeAnimation {
+    /* background-color: brown; */
+    width: 30%;
+    /* height: 5vh; */
+}
+
+.navInPhotography {
+    float: right;
+    height: 40% ;
+    margin-left: 45rem;
+    margin-top: 1.5rem
+}
+
+.stylePhotography {
+    color: #cb0000;
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    font-style: italic;
+    height: 5vh;
+}
+
+.stylePhotography:hover {
+    text-decoration: line-through #ffffff;
+}
+
+
+.sliderDiv { 
+    width: 75%;
+    height: 70vh;
+    margin-left: 20%;
+    margin-top: 2%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    border-radius: 1.5rem;
+    padding-right: 35px;
+    padding-right: 1rem;
+    margin-bottom: 0.8rem;
+    /* border: 12px solid #cb0000; */
+}
