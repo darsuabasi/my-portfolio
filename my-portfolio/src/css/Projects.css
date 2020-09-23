@@ -7,9 +7,7 @@
     background-image: url('../assets/ProjectsBG4.png');
     background-size: 100%;
     background-color: #f9b203;
-    /* background-repeat: none; */
     height: 100vh;
-    /* width: 100vw; */
     display: grid;
     overflow: hidden;
 }
@@ -33,22 +31,6 @@
     text-decoration: line-through #ffffff;
 }
 
-.portfolioHeading {
-    color: #cb0000;
-}
-
-.portfolioHeading:hover {
-    text-decoration: line-through #ffffff;
-}
-
-.projectsSec {
-    display: flex;
-}
-
-.projectDiv {
-    display: flex;
-}
-
 .allProjects {
     display: flex;
     flex-direction: row;
@@ -59,20 +41,42 @@
     position: sticky;
 }
 
-.divForProjName {
+.appScreenshots {
+    border-radius: 1.5rem;
+}
+
+.appScreenshots:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+    transition:transform 1.5s ease;
+    transform: scale(1.2);
+    flex-grow: 1;   
+}
+
+/* .divForProjName {
     justify-content: center;
     align-content: center;
 
-}
+} */
 
 .projectName {
     align-content: center;
     text-align: center;
 }
 
-.checkOutTheCode {
+.projectName.top {
+    color: #cb0000; 
+    margin-top: 7%;
+}
+
+.projectName.top:hover {
+    text-decoration: line-through #ffffff;
+}
+
+.codeDiv {
     align-content: center;
     text-align: center;
+    justify-content: space-between;
+    padding: 2%;
 }
 
 .appLink {
@@ -86,27 +90,6 @@
     text-decoration: line-through #ffffff;
     color: #cb0000;
 }
-
-
-
-.projectName.top {
-    /* color: #ffffff; */
-    color: #cb0000; 
-    margin-top: 7%;
-}
-
-.projectName.top:hover {
-    text-decoration: line-through #ffffff;
-}
-
-
-/* .projectName.bottom {
-    color: #ffffff;
-}
-
-.projectName.bottom:hover {
-    text-decoration: line-through #cb0000;
-} */
 
 .checkOutTheCode {
     align-content: center;
@@ -142,8 +125,7 @@
     color: transparent;
     text-decoration: line-through #cb0000;
     font-variant: small-caps;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 
 .whatsNext:hover {
@@ -152,23 +134,4 @@
 }
 
 
-.appScreenshots {
-    border-radius: 1.5rem;
-}
-
-.appScreenshots:hover {
-    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
-    transition:transform 1.5s ease;
-    transform: scale(1.2);
-    flex-grow: 1;
-    
-}
-
-.codeDiv {
-    align-content: center;
-    text-align: center;
-    justify-content: space-between;
-    padding: 2%;
-
-}
 

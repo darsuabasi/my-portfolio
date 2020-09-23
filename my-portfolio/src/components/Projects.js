@@ -27,9 +27,6 @@ const Projects = () => {
             Uduakabasi Codes
           </h1>
         </Typing>
-        {/* <div>
-          <h1 className="portfolioHeading"> Portfolio</h1>
-        </div> */}
       </div>
 
       <div className="projectsSec">
