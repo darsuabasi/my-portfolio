@@ -6,6 +6,7 @@
 .AboutMain {
     height: 100vh;
     display: grid;
+    background-image: url('../assets/PhotographyBG3.png');
     background-color: #f9b203;
     z-index: 1;
 }
@@ -20,8 +21,9 @@
 .divForExtras {
     z-index: 100;
     display: flex;
-    margin-top: 1rem;
     margin-left: 48rem;
+    margin-top: -13rem;
+    float:right;
 }
 
 .aboutParaDiv {
@@ -85,6 +87,7 @@
 
 .picOfMe {
     border-radius: 2rem;
+    width:"450px"
 }
 
 
@@ -104,3 +107,328 @@
     position:absolute;
     z-index:100;
 }
+
+/* .videoBox {
+    visibility: hidden;
+} */
+
+
+
+
+
+
+
+
+
+/* -------------------------------- MOBILE RESPONSIVENESS ----------------------------------- */
+/* lowest width to highest width */
+
+/* ---------------------------------GALAXY FOLD Responsiveness--------------------------------*/
+@media (max-width: 280px) {
+    * {
+        padding: 0;
+        margin: 0;
+        /* overflow-x: scroll; */
+    }
+    
+    .AboutMain {
+        height: 250vh;
+        display: grid;
+        background-color: #f9b203;
+    }
+    
+    .navInAbout {
+        /* float: right; */
+        height: 20% ;
+        /* margin-left: 45rem; */
+        /* margin-top: 1.5rem; */
+        display: flex;
+    }
+    
+    .divForExtras {
+        /* z-index: 100; */
+        /* display: flex; */
+        /* margin-left: 48rem; */
+        /* margin-top: -13rem; */
+        float:right;
+    }
+    
+    .aboutParaDiv {
+        /* z-index: 100; */
+        /* color: #ffffff; */
+        /* flex-wrap: wrap; */
+        /* width: 4rem; */
+    }
+    
+    .aboutmepara { 
+        /* font-weight: 800; */
+        /* font-style: italic; */
+        font-variant: small-caps;
+        /* font-size: 1.2rem; */
+        /* width: 95%; */
+        /* z-index: 100; */
+        color: #ffffff;
+    }
+    
+    .aboutSec {
+        color: #ffffff ;
+        /* position:absolute; */
+        /* z-index: 100; */
+        /* left: 3%; */
+        /* top: 10%; */
+    }
+    
+    .aboutInfoHead {
+        color: #ffffff;
+        /* text-decoration: line-through #cb0000; */
+        font-size: 24px;
+        padding-left: 8%;
+        /* align-self: center; */
+        /* font-weight: bolder; */
+        /* margin-top: 2rem; */
+    }
+    
+    .aboutInfoHead:hover {
+        /* color: #cb0000; */
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .typingComp {
+        color: #cb0000;
+        color: #ffffff ;
+        position:absolute;
+        /* z-index: 100; */
+        /* left: 3%; */
+        /* top: 30; */
+        height: 2rem;
+        font-variant: small-caps;
+        /* margin-top: 3rem; */
+    }
+    
+    .miniBio {
+        color: #cb0000;
+    }
+    
+    
+    .div4pic {
+        /* margin-top: 12rem; */
+    }
+    
+    .picOfMe {
+        border-radius: 0.5rem;
+        height: 250px;
+        width: 265px;
+    }
+    
+    
+    /* .world {
+        color: whitesmoke;
+        font-size: 30px;
+        font-weight: 700px;
+    } */
+    
+    /* .commentSection {
+        position:absolute;
+        z-index:100;
+    } */
+
+    .videoBox {
+        visibility: hidden;
+    }
+    
+  }
+
+
+
+  /* -------------------------------------- galaxy s5 -------------------------------------- */
+@media (max-width: 320px) {
+    
+  }
+
+
+
+/* ----------------------------------------- galaxy s5 ----------------------------------------- */
+@media (min-width: 360px) {
+    
+  }
+
+
+
+
+@media (min-width: 375px) {
+    /* -----------------------------------------------iPhone 6/7/8------------------------------------- */
+  
+}
+
+/* <!------------------------------- iPhone 6/7/8 PLus--------------------------------> */
+@media (min-width: 414px) {
+    
+  }
+
+
+  /* <!------------------------------- SURFACE DUO --------------------------------> */
+@media (min-width: 450px) and (min-height:600px) {
+    
+  }
+
+
+/* -----------------------RESPONSIVENESS FOR TABLETS------------------------------- */
+
+
+/* ------------------------------------------------------ iPad ----------------------------------------- */
+@media (min-width: 768px) and (max-height: 1024px) {
+    
+  }
+
+
+
+
+    /* ----------------------------------------- IPAD LANDSCAPE VIEW- Responsiveness ----------------------*/
+@media (min-width: 1024px) and (max-height: 768px) {
+   
+  }
+
+
+  /* ------------------------------------------iPad PRO RESPONSIVENESS REG LAYOUT---------------------- */
+  @media (min-width: 1024px) and (min-height: 1366px) {
+      
+  }
+
+
+
+    /* ------------------------- iPad Pro Responsiveness -LANDSCAPE VIEW-------------------------- */
+    @media (min-width: 1366px) and (min-height: 1024px) {
+        
+      }
+
+
+
+      /* ------------------------ iPad Pro Responsiveness -LANDSCAPE VIEW ------------------------------------ */
+@media (min-width: 1366px) and (min-height: 1024) {
+    
+  }
+
+
+
+
+
+
+
+/*-----------------------------------  RESPONSIVENESS FOR DESKTOPS / LAPTOPS -------------------------- */
+
+
+/* ---------------------------------------------- MacBookAir Responsiveness -----------------------------*/
+@media (min-width: 1280px) and (max-height: 800px) {
+    
+  }
+
+
+
+  /* -------------------------------DESKTOP TOUCH WITH 950 HEIGHT Responsiveness ----------------------*/
+@media (min-width: 1280px) and (min-height: 950px) {
+    
+  }
+
+
+
+  /* -------------------------------DESKTOP WITH HIGHDPI Responsiveness ----------------------*/
+  @media (min-width: 1440px) and (min-height: 900px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .AboutMain {
+        height: 100vh;
+        display: grid;
+        background-color: #f9b203;
+        overflow: hidden;
+        /* z-index: 1; */
+    }
+    
+    .navInAbout {
+        float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem
+    }
+    
+    .divForExtras {
+        z-index: 100;
+        display: flex;
+        margin-left: 48rem;
+        margin-top: -13rem;
+        float:right;
+    }
+    
+    .aboutParaDiv {
+        z-index: 100;
+        color: #ffffff;
+        flex-wrap: wrap;
+        width: 35rem;
+    }
+    
+    .aboutmepara { 
+        font-weight: 800;
+        font-style: italic;
+        font-variant: small-caps;
+        font-size: 1.2rem;
+        width: 95%;
+        z-index: 100;
+        color: #ffffff;
+    }
+    
+    .aboutSec {
+        color: #ffffff ;
+        position:absolute;
+        z-index: 100;
+        left: 3%;
+        top: 10%;
+    }
+    
+    .aboutInfoHead {
+        color: #ffffff;
+        text-decoration: line-through #cb0000;
+        font-size: 60px;
+        font-weight: bolder;
+        margin-top: 2rem;
+    }
+    
+    .aboutInfoHead:hover {
+        color: #cb0000;
+        text-decoration: line-through #ffffff;
+    }
+    
+    .typingComp {
+        color: #cb0000;
+        color: #ffffff ;
+        position:absolute;
+        z-index: 100;
+        left: 3%;
+        top: 30;
+        height: 5rem;
+        font-variant: small-caps;
+        margin-top: 3rem;
+    }
+    
+    .miniBio {
+        color: #cb0000;
+    }
+    
+    
+    .div4pic {
+        margin-top: 12rem;
+    }
+    
+    .picOfMe {
+        border-radius: 2rem;
+        /* width:"350px" */
+    }
+    
+    
+    .navInAbout {
+        display: flex;
+        float: right;
+        height: 40% ;
+    }
+  }
