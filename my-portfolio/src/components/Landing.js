@@ -26,7 +26,7 @@ const Landing = ({ Component, pageProps, router }) => {
                 <div {...pageProps} className="landingMain"> 
                     <div className="landingBio">
                         <Typing className="typeingAni">
-                            <p className="landingInfoHead"> Hi, I'm Uduakabasi!</p>
+                            <p className="landingInfoHead"> Hi, I'm Uduakabasi.</p>
                             <h1 className="landingInfoSub">  Web Engineer,</h1>
                             <h2 className="landingInfoSub"> Fullstack,</h2>
                             <h3 className="landingInfoSub"> && more.</h3>
