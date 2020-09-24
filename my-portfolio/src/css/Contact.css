@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contactMain {
+    background-image: url('../assets/contactBG2.png');
+    background-size: 100%;
+    background-color: #f9b203;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+}
+
+.styleContact {
+    font-variant: small-caps;
+    color: #cb0000;
+    margin-left: 5rem;
+    margin-top: 1%;
+    font-style: italic;
+    position: static;
+}
+
+.reachOutDiv {
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 5%;
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-bottom: 12%;
+    justify-content: center;
+}
+
+.reachOutInsta {
+    width: 25%;
+    padding: 2%;
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-variant: small-caps;
+    font-size: 25px;
+    border: 5px solid #ffffff; 
+    background-color: #cb0000;
+}
+
+.reachOutEmail {
+    width: 25%;
+    padding: 1.5%;
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-variant: small-caps;
+    overflow: hidden;
+    border: 5px solid #ffffff; 
+    background-color: #cb0000;
+}
+
+.serviceHeading {
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.reachOutTweet {
+    width: 25%;
+    padding: 2%;
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-variant: small-caps;
+    font-size: 25px;
+    border: 5px solid #ffffff; 
+    background-color: #cb0000;
+}
+
+
+
+.servicesLI {
+    list-style: none;
+}
+
+.servicesUL {
+    margin-bottom: 5%;
+}
+
+.div4email {
+    flex-wrap: wrap;
+}
+
+.emailInContact {
+    margin-top: 2%;
+    font-size: 16px;
+}
+
+.linksInContact {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.linksInContact:hover {
+    color: #ffffff;
+    text-decoration: underline #ffffff;
+}
+
+.linksInContact.two {
+    margin-top: 5%;
+}
