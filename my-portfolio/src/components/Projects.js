@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-// import Typical from 'react-typical';
+import React from 'react';
 import '../css/Projects.css';
-import { Link } from 'react-router-dom'
 import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
 import zoovioApp from '../assets/zoovioApp.png';
@@ -10,11 +8,9 @@ import aatgApp from '../assets/aatgApp.png';
 import pinterestApp from '../assets/pinterestApp.jpeg';
 import pinterestApp2 from '../assets/pinterestApp2.jpeg';
 import letsgoApp from '../assets/letsgoApp.png';
-// import { Modal, Button } from 'react-bootstrap'
 
 
 const Projects = () => {
-
   return (
     <div className="ProjectMain"> 
       <div className="navInProjects">
@@ -32,7 +28,6 @@ const Projects = () => {
       <div className="projectsSec">
             <div className="projectDiv">
               <div className="allProjects">
-
                 <div className="projectOne">
                   <img  className="appScreenshots" href="https://zoovio.netlify.app/" style={{width:"350px"}} src={zoovioApp}/>
                   <h2 className="projectName top"> ZooVio</h2>
