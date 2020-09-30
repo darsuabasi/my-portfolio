@@ -30,9 +30,9 @@ import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight,
     const RotateInDownLeft = styled.div`animation: 5s ${keyframes `${rotateInDownLeft}`} infinite`;
     const RubberBand = styled.div`animation: 5s ${keyframes `${rubberBand}`} infinite`;
     const Tada = styled.div`animation: 5s ${keyframes `${tada}`} infinite`;
-    const Hinge = styled.div`animation: 15s ${keyframes `${hinge}`} infinite`;
+    const Hinge = styled.div`animation: 8s ${keyframes `${hinge}`} infinite`;
     const Jello = styled.div`animation: 5s ${keyframes `${jello}`} infinite`;
-    const SlideInRight = styled.div`animation: 15s ${keyframes `${slideInRight}`} infinite`;
+    const SlideInRight = styled.div`animation: 20s ${keyframes `${slideInRight}`} infinite`;
     
     // const tadaFlip = merge(tada, flip);
 
