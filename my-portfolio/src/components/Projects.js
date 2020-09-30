@@ -32,7 +32,7 @@ const Projects = () => {
                   <img  className="appScreenshots" href="https://zoovio.netlify.app/" style={{width:"350px"}} src={zoovioApp}/>
                   <h2 className="projectName top"> ZooVio</h2>
                     <div className="codeDiv">
-                      <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets!  </a>
+                      <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets! 😁  </a>
                       <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio">    Check out the code.</a>
                     </div>
                   <p className="bioForTheProject"> 
