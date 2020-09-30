@@ -129,3 +129,1211 @@
 
 
 
+
+
+
+
+/* ---------------------------------GALAXY FOLD Responsiveness--------------------------------*/
+@media (max-width: 280px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1100px 1100px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 14rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 3rem !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        width: 10rem !important;
+    }
+    
+    .allProjects {
+        margin-left: 0.9rem !important;
+        grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 250px !important;
+        height: 200px !important;
+    }
+    
+    .bioForTheProject {
+        width: 16rem !important;
+        font-size: 22px !important;
+    }
+    
+    .whatsNext {
+        width: 16rem !important;
+        font-size: 20px !important;
+    }
+    
+}
+
+
+/* ------------------------------------ iphoneX 5/SE 320 by 568 --------------------------------------- */
+@media (min-width: 320px) and (max-height: 580px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1100px 900px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 16.5rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 4rem !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        width: 10rem !important;
+    }
+    
+    .allProjects {
+        margin-left: 0.6rem !important;
+        grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 300px !important;
+        height: 250px !important;
+    }
+    
+    .bioForTheProject {
+        width: 19rem !important;
+        font-size: 24px !important;
+    }
+    
+    .whatsNext {
+        width: 19rem !important;
+        font-size: 22px !important;
+    }
+   
+}
+
+
+
+
+/* -------------------------------------------glaxay s5 / moto g4 360 by 640 -------------------------------------------------- */
+@media (min-width: 360px) and (max-height: 650px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1100px 1100px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 18.6rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 2.5rem !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        width: 20rem !important;
+    }
+    
+    .allProjects {
+        margin-left: 0.9rem !important;
+        grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 330px !important;
+        height: 250px !important;
+    }
+
+    .bioForTheProject {
+        font-size: 24px !important;
+    }
+    
+    .whatsNext {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+/* -------------------------------------------iphoneX 375 by 812 -------------------------------------------------- */
+@media (min-width: 375px) and (max-height: 815px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1100px 1300px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 20rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 2.5rem !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        width: 20rem !important;
+    }
+    
+    .allProjects {
+        margin-left: 0.8rem !important;
+        grid-gap: 3.5rem !important;
+    }
+
+    .bioForTheProject {
+        font-size: 24px !important;
+    }
+    
+    .whatsNext {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+/* ---------------------iphoneX 6/7/8 PLUS [414 by 736] + PIXEL2[411 by 731]  + PIXEL2XL [411 by 823]---------------------- */
+@media (min-width: 400px) and (max-height: 830px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1100px 1200px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 22rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 3.5rem !important;
+        margin-top: 6rem !important;
+        margin-bottom: 2rem !important;
+        width: 20rem !important;
+    }
+    
+    
+    .allProjects {
+        margin-left: 1rem !important;
+        grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 380px !important;
+        height: 310px !important;
+    }
+    
+    .bioForTheProject {
+        width: 24rem !important;
+        font-size: 24px !important;
+    }
+    
+    .whatsNext {
+        width: 24rem !important;
+        font-size: 24px !important;
+    }
+    
+    
+}
+
+
+
+/* ------------------------------------------------------ iPad ----------------------------------------- */
+@media (min-width: 768px) and (min-height: 1024px) {
+    .ProjectMain {
+        background-repeat: no-repeat;
+        background-size: 1200px 1200px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 44rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 13rem !important;
+        margin-top: 6rem !important;
+        margin-bottom: 2rem !important;
+        width: 25rem !important;
+        font-size: 40px !important;
+        margin-bottom: 3rem !important;
+    }
+
+    
+    .allProjects {
+        margin-left: 10rem !important;
+        grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+        border-radius: 1rem !important;
+        width: 450px !important;
+        height: 300px !important;
+    }
+    
+    .bioForTheProject {
+        width: 30rem !important;
+        font-size: 20px !important;
+    }
+    
+    .whatsNext {
+        width: 30rem !important;
+        font-size: 22px !important;
+    }
+
+}
+
+
+
+ /* ----------------------------------------- IPAD LANDSCAPE VIEW- Responsiveness ----------------------*/
+ @media (min-width: 1024px) and (max-height: 850px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+
+
+}
+
+
+
+/* ------------------------------------------iPad PRO RESPONSIVENESS REG LAYOUT 1366 height---------------------- */
+@media (min-width: 1024px) and (min-height: 851px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+
+}
+
+
+
+
+/* ---------------------------------------------- MacBookAir Responsiveness1 1280 by 800 ----------------------------------*/
+@media (min-width: 1280px) and (max-height: 850px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+   
+
+}
+
+
+
+/* ---------------------------------------DESKTOP TOUCH WITH 950 HEIGHT Responsiveness ----------------------*/
+@media (min-width: 1280px) and (min-height: 900px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+    
+
+}
+
+
+/* ---------------------------------------------- MacBookAir ResponsivenessMYMAC REGULAR----------------------------------*/
+@media (min-width: 1440px) and (max-height: 740px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+    
+}
+
+
+
+/* ---------------------------------------------- MacBookAir ResponsivenessMYMAC EXPANDED----------------------------------*/
+@media (min-width: 1440px) and (min-height: 750px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+    
+   
+}
+
+
+/* ---------------------------------------------------DESKTOP WITH HIGHDPI Responsiveness --------------------------------------------------*/
+@media (min-width: 1440px) and (min-height: 800px) {
+    .ProjectMain {
+        /* background-image: url('../assets/ProjectsBG4.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color: #f9b203;
+        height: 100vh;
+        display: grid;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important; */
+    }
+    
+    .navInProjects  {
+        /* float: right;
+        height: 40% ;
+        margin-left: 45rem;
+        margin-top: 1.5rem */
+    }
+    
+    .styleProj {
+        /* color: #cb0000;
+        margin-left: 3rem;
+        margin-top: 3%;
+        font-style: italic;
+        position: static; */
+    }
+    
+    .styleProj:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .allProjects {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-gap: 3rem;
+        margin-left: 16rem;
+        padding-top: 2.4%;
+        position: sticky; */
+    }
+    
+    .appScreenshots {
+        /* border-radius: 1.5rem; */
+    }
+    
+    .appScreenshots:hover {
+        /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+        transition:transform 1.5s ease;
+        transform: scale(1.2);
+        flex-grow: 1;    */
+    }
+    
+    .projectName {
+        /* align-content: center;
+        text-align: center; */
+    }
+    
+    .projectName.top {
+        /* color: #cb0000; 
+        margin-top: 7%; */
+    }
+    
+    .projectName.top:hover {
+        /* text-decoration: line-through #ffffff; */
+    }
+    
+    .codeDiv {
+        /* align-content: center;
+        text-align: center;
+        justify-content: space-between;
+        padding: 2%; */
+    }
+    
+    .appLink {
+        /* color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .appLink:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .checkOutTheCode {
+        /* align-content: center;
+        text-align: center;
+        color: #cb0000;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-weight: 700; */
+    }
+    
+    .checkOutTheCode:hover {
+        /* text-decoration: line-through #ffffff;
+        color: #cb0000; */
+    }
+    
+    .bioForTheProject {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        color: #ffffff;
+        font-variant: small-caps;
+        font-weight: 700;
+        font-size: 17px; */
+    }
+    
+    .bioForTheProject:hover {
+        /* color: #cb0000; */
+    }
+    
+    .whatsNext {
+        /* overflow-wrap: break-word;
+        width: 21.8rem;
+        padding-top: 1.5%;
+        color: transparent;
+        text-decoration: line-through #cb0000;
+        font-variant: small-caps;
+        font-weight: 700;  */
+    }
+    
+    .whatsNext:hover {
+        /* color: #ffffff;
+        text-decoration: none; */
+    }
+
+
+}
+
+
+
