@@ -1,50 +1,23 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom' 
-import '../css/NavBar.css'
+import '../css/NavBar.css';
+import { hamburgerMenu2 } from '../assets/hamburgerMenu2.png'
 
 const NavBar = () => {
       return(
         
-          <div className="navbar"> 
-            <ul className="navUl">
-              <li className="navLi">
-                <NavLink exact to="/" className="nav-selected">
-                  Home
-                </NavLink>
-              </li>
-    
-              <li className="navLi">
-                <NavLink exact to="/about" className="nav-selected">
-                  About
-                </NavLink>
-              </li>
-    
-              <li className="navLi">
-                <NavLink exact to="/projects" className="nav-selected">
-                  Projects
-                </NavLink>
-              </li>
-
-              <li className="navLi">
-                <NavLink exact to="/skills" className="nav-selected">
-                  Skills
-                </NavLink>
-              </li>
-
-              <li className="navLi">
-                <NavLink exact to="/photography" className="nav-selected">
-                  Photography 
-                </NavLink>
-              </li>
-
-
-              <li className="navLi">
-                <NavLink exact to="/contact" className="nav-selected">
-                  Contact
-                </NavLink>
-              </li>
-            </ul>
-              
+          <div className="navbar">    
+              <button className="menuIcon dropbtn"> </button>
+              {/* <div className="dropdown"> */}
+                <div className="dropdown-content">
+                  <a href="/" className="nav-selected"> Home </a>
+                  <a href="/about" className="nav-selected"> About </a>
+                  <a href="/projects" className="nav-selected"> Projects </a>
+                  <a href="/skills" className="nav-selected"> Skills </a>
+                  <a href="/photography" className="nav-selected"> Photography </a>
+                  <a href="/contact" className="nav-selected"> Contact </a>
+                </div>
+              {/* </div>  */}
           </div>
        
       )
