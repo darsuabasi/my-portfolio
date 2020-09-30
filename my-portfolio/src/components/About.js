@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/About.css'
-import Comments from '../components/Comments';
 import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
 import AboutBG from '../assets/AboutBG.mp4';
 import mePic from '../assets/mePic.jpg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   const backgroundCss = {
@@ -12,14 +12,14 @@ const About = () => {
     right: "0",
     bottom: "0",
     minWidth: "100%",
-    minHeight: "100%"
+    maxHeight: "950px"
   };
 
   return (
     <div className="AboutMain">
-      <div className="navInAbout">
+      {/* <div className="navInAbout">
         <NavBar/> 
-      </div>
+      </div> */}
       <div className="videoBox">
         <video
           autoPlay
@@ -27,11 +27,10 @@ const About = () => {
           loop
           id="background-video"
           style={{ 
-            position: "fixed", 
+            // position: "absolute", 
             width: "100vw",
-            // height:"120vh",
-            left: 0,
-            top: 0,
+            // left: 0,
+            // top: 0,
             ...backgroundCss }}
           >
 
@@ -40,9 +39,13 @@ const About = () => {
       </video>
     </div>
 
-    <div style={{marginTop:"-14rem", float:"right"}} className="divForExtras">
+    <div className="nextBttn">
+            <Link className="projectButton" exact to="/projects"> Projects</Link>
+    </div>
+
+    <div className="divForExtras">
         <div className="aboutParaDiv">
-          <p style={{color:"#cb0000", fontSize:'26px'}} className="aboutmepara"> Currently enrolled at Pursuit, an intensive 12-month, Google-funded software engineering fellowship that has a 9% acceptance rate.</p>
+          <p style={{color:"#cb0000", fontSize:'26px', marginBottom: '1rem'}} className="aboutmepara"> Currently enrolled at Pursuit, an intensive 12-month, Google-funded software engineering fellowship that has a 9% acceptance rate.</p>
           <p style={{color:"#ffffff"}} className="aboutmepara"> - Nigerian </p>
           <p style={{color:"#ffffff"}} className="aboutmepara"> - Bachelor of Science: Criminal Justice </p>
           <p style={{color:"#ffffff"}} className="aboutmepara"> - Concentration in Intelligence Analysis </p>
@@ -66,20 +69,17 @@ const About = () => {
         </Typing>
 
         <div className="div4pic">
-          <img className="picOfMe" alt="photo of uduakabasi" style={{width:"450px"}} src={mePic}/>
+          <img className="picOfMe" style={{width:"450px"}} alt="photo of uduakabasi" src={mePic}/>
         </div>
+      </div>
 
-        {/* <p className="headingForComments">
-          Drop a comment or just cool vibes... 
-        </p> */}
-          {/* <div className="commentSection">  */}
-            {/* <Comments/> */}
-          {/* </div> */}
-
-      
+    <div className="navInAbout">
+      <NavBar/> 
     </div>
 
-      
+    
+
+    
 
 
     </div>  
