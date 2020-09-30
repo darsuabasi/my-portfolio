@@ -1547,7 +1547,6 @@
     }
     
     .typeingAni {
-        /* height: 20rem; */
         width: 15rem;
     }
     
@@ -1659,12 +1658,6 @@
     }
     
     .majorDiv {
-        /* background-image: url('../assets/officialLanding.png');
-        background-color: #f9b203;
-        width: 100%;
-        height: 100vh; */
-        /* overflow: hidden; */
-
         background-image: url('../assets/officialLanding.png');
         background-position: 0;
         background-size: 1800px 1000px;
