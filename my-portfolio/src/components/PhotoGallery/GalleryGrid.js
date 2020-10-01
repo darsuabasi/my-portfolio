@@ -11,7 +11,7 @@ const GalleryGrid = ({ }) => {
           layout
           whileHover={{ opacity: 1 }}s
         >
-          <motion.img className="galleryImageStyling" style={{width:"550px", height:"500px", borderRadius:"1rem"}} src={Images} alt="Gallery Photo"
+          <motion.img className="galleryImageStyling" style={{width:"550px", height:"500px", borderRadius:"0.5rem"}} src={Images} alt="Gallery Photo"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
