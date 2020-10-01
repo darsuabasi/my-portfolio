@@ -11,20 +11,26 @@ const Contact = () => {
 
   return (
     <div className="contactMain"> 
-      <div className="navInProjects">
+      <div className="navInContacts">
         <NavBar/> 
       </div>
 
-      <div>
+      <div className="div4Intro">
         <Typing>
           <h1 className="styleContact"> 
-          Want To Chat? 
+            Want To Chat? 
               <div> 
-                <h1> Need My Skills? </h1>
+                <h1 className="styleContact2"> 
+                  Need My Skills? </h1>
+                    <div> 
+                    {/* file:///Users/dylanabasiurua/Downloads/Resume_Uduakabasi%20Abasiurua.pdf */}
+                      <a href="https://docs.google.com/document/d/18I_rL7ZO-yweUZFtvAM87RNCOFIO6Wvufd5D4D-_aek/edit?usp=sharing"><h2 className="styleResume">My Resume!</h2></a>
+                    </div>
               </div>
-          </h1>
+            </h1>
         </Typing>
       </div>
+
 
 
 
@@ -65,6 +71,35 @@ const Contact = () => {
         </div>
 
 
+        <div className="mySocials">
+          <ul className="socialOptionUL2">
+            <li lassName="socialOption">
+              <a href="https://github.com/darsuabasi">
+                <img id="insta" className="logos4contact" src={github} alt="github" />
+              </a>
+              </li>
+
+              <li className="socialOption">
+                <a href="https://twitter.com/darsucodes">
+                  <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
+                    {/* <img src="https://img.icons8.com/fluent/100/000000/twitter.png"/> */}
+                </a>
+              </li>
+
+              <li lassName="socialOption">
+                <a href="https://www.instagram.com/darsu.chats/">
+                  <img id="insta" className="logos4contact" src={instagram} alt="instagram" />
+                </a>
+              </li>
+
+              <li lassName="socialOption">
+                <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/">
+                  <img id="linkd" className="logos4contact" src={linkedin} alt="linkedin" />
+                </a>
+              </li>
+            </ul>
+
+          </div>
 
 
       </div>
