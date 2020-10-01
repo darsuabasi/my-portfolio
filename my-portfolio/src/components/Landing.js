@@ -41,7 +41,7 @@ const Landing = ({ Component, pageProps, router }) => {
             
 
 
-            <div className="footerDiv4Landing"> 
+            {/* <div className="footerDiv4Landing"> 
                 <ul className="socialOptionUL">
 
                     <li lassName="socialOption">
@@ -53,7 +53,6 @@ const Landing = ({ Component, pageProps, router }) => {
                     <li className="socialOption">
                         <a href="https://twitter.com/darsucodes">
                             <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
-                            {/* <img src="https://img.icons8.com/fluent/100/000000/twitter.png"/> */}
                         </a>
                     </li>
 
@@ -71,12 +70,9 @@ const Landing = ({ Component, pageProps, router }) => {
                         </a>
                     </li>
 
-                    
-
-                    
-
+                
                 </ul>
-            </div>
+            </div> */}
         </div>
             </motion.div>
             </div>
