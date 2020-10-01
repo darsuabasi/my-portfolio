@@ -21,6 +21,15 @@
     position: static;
 }
 
+.styleResume {
+    font-variant: small-caps;
+    color: #cb0000;
+    margin-left: 5rem;
+    margin-top: 1%;
+    font-style: italic;
+    position: static;
+}
+
 .reachOutDiv {
     height: 75%;
     display: flex;
@@ -75,8 +84,6 @@
     background-color: #cb0000;
 }
 
-
-
 .servicesLI {
     list-style: none;
 }
@@ -107,4 +114,601 @@
 
 .linksInContact.two {
     margin-top: 5%;
+}
+
+.footerDiv4Landing {
+    position: absolute !important;
+}
+
+
+
+
+
+/* --------------------------------------------------RESPONSIVENESS---------------------------------------------------- */
+
+/* ---------------------------------GALAXY FOLD Responsiveness--------------------------------*/
+@media (max-width: 280px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contactMain {
+        background-repeat: no-repeat !important;
+        background-size: 900px 1000px !important;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+    
+    .div4Intro {
+        width: 20rem !important;
+        height: 12rem !important;
+    }
+    .styleContact {
+        margin-left: 1rem;
+        margin-top: 5rem !important;
+        font-size: 24px !important;
+    }
+
+    .styleContact2 {
+        margin-left: 2rem !important;
+        font-size: 28px !important;
+    }
+
+    .styleResume {
+        font-size: 32px !important;
+        margin-left: 6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .styleResume:hover {
+        text-decoration: line-through #ffffff !important;
+    }
+
+    a.visited, a:link, a:active{
+        text-decoration: none !important;
+    }
+
+    .navInContacts {
+        margin-left: 14rem !important;
+        margin-top: .8rem !important;
+        position: absolute !important;
+    }
+    
+    .reachOutDiv {
+        grid-gap: 5%;
+        margin-left: -0.25rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 4rem !important;
+        height: 74rem !important;
+        width: 18rem !important;
+        overflow-y: scroll !important;
+        position: sticky !important;
+    }
+    
+    .reachOutInsta {
+        width: 80% !important;
+    }
+    
+    .reachOutEmail {
+        width: 80% !important;
+        padding: 1.5% !important;
+    }
+    
+    
+    .reachOutTweet {
+        width: 80% !important;
+    }
+
+    .footerDiv4Landing {
+        position: relative !important;
+        margin-left: -16rem !important;
+        margin-top: 4rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+
+    }
+
+    .mySocials {
+        width: 15rem !important;
+    }
+
+    .socialOptionUL2 {
+        list-style-type: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 2% !important;
+        border: 5px solid #ffffff; 
+        background-color: transparent;
+        margin-bottom: -2rem !important;
+    }
+   
+}
+
+
+/* ------------------------------------ iphoneX 5/SE 320 by 568 --------------------------------------- */
+@media (min-width: 320px) and (max-height: 580px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contactMain {
+        background-repeat: no-repeat !important;
+        background-size: 900px 1000px !important;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+    
+    .div4Intro {
+        width: 20rem !important;
+        height: 12rem !important;
+    }
+    .styleContact {
+        margin-left: 2rem;
+        margin-top: 5rem !important;
+        font-size: 24px !important;
+    }
+
+    .styleContact2 {
+        margin-left: 2rem !important;
+        font-size: 28px !important;
+    }
+
+    .styleResume {
+        font-size: 32px !important;
+        margin-left: 6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .styleResume:hover {
+        text-decoration: line-through #ffffff !important;
+    }
+
+    a.visited, a:link, a:active{
+        text-decoration: none !important;
+    }
+
+    .navInContacts {
+        margin-left: 16.5rem !important;
+        margin-top: .4rem !important;
+        position: absolute !important;
+    }
+    
+    .reachOutDiv {
+        grid-gap: 5%;
+        margin-left: 1rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 4rem !important;
+        height: 74rem !important;
+        width: 18rem !important;
+        overflow-y: scroll !important;
+        position: sticky !important;
+    }
+    
+    .reachOutInsta {
+        width: 80% !important;
+    }
+    
+    .reachOutEmail {
+        width: 80% !important;
+        padding: 1.5% !important;
+    }
+    
+    
+    .reachOutTweet {
+        width: 80% !important;
+    }
+
+    .footerDiv4Landing {
+        position: relative !important;
+        margin-left: -16rem !important;
+        margin-top: 4rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+
+    }
+
+    .mySocials {
+        width: 15rem !important;
+    }
+
+    .socialOptionUL2 {
+        list-style-type: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 2% !important;
+        border: 5px solid #ffffff; 
+        background-color: transparent;
+        margin-bottom: -2rem !important;
+    }
+   
+   
+}
+
+
+
+
+/* -------------------------------------------glaxay s5 / moto g4 360 by 640 -------------------------------------------------- */
+@media (min-width: 360px) and (max-height: 650px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contactMain {
+        background-repeat: no-repeat !important;
+        background-size: 900px 1000px !important;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+    
+    .div4Intro {
+        width: 20rem !important;
+        height: 12rem !important;
+    }
+    .styleContact {
+        margin-left: 3.5rem;
+        margin-top: 6rem !important;
+        font-size: 24px !important;
+    }
+
+    .styleContact2 {
+        margin-left: 2rem !important;
+        font-size: 28px !important;
+    }
+
+    .styleResume {
+        font-size: 32px !important;
+        margin-left: 6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .styleResume:hover {
+        text-decoration: line-through #ffffff !important;
+    }
+
+    a.visited, a:link, a:active{
+        text-decoration: none !important;
+    }
+
+    .navInContacts {
+        margin-left: 19rem !important;
+        margin-top: .45rem !important;
+        position: absolute !important;
+    }
+    
+    .reachOutDiv {
+        grid-gap: 5%;
+        margin-left: 2.3rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: 4rem !important;
+        height: 74rem !important;
+        width: 18rem !important;
+        overflow-y: scroll !important;
+        position: sticky !important;
+    }
+    
+    .reachOutInsta {
+        width: 80% !important;
+    }
+    
+    .reachOutEmail {
+        width: 80% !important;
+        padding: 1.5% !important;
+    }
+    
+    
+    .reachOutTweet {
+        width: 80% !important;
+    }
+
+    .footerDiv4Landing {
+        position: relative !important;
+        margin-left: -16rem !important;
+        margin-top: 4rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+
+    }
+
+    .mySocials {
+        width: 15rem !important;
+    }
+
+    .socialOptionUL2 {
+        list-style-type: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 2% !important;
+        border: 5px solid #ffffff; 
+        background-color: transparent;
+        margin-bottom: -2rem !important;
+    }
+    
+    
+}
+
+
+/* -------------------------------------------iphoneX 375 by 812 -------------------------------------------------- */
+@media (min-width: 375px) and (max-height: 815px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contactMain {
+        background-repeat: no-repeat !important;
+        background-size: 900px 1300px !important;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+    
+    .div4Intro {
+        width: 20rem !important;
+        height: 12rem !important;
+    }
+    .styleContact {
+        margin-left: 4.5rem;
+        margin-top: 6rem !important;
+        font-size: 24px !important;
+    }
+
+    .styleContact2 {
+        margin-left: 2rem !important;
+        font-size: 28px !important;
+    }
+
+    .styleResume {
+        font-size: 30px !important;
+        margin-left: 6rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .styleResume:hover {
+        text-decoration: line-through #ffffff !important;
+    }
+
+    a.visited, a:link, a:active{
+        text-decoration: none !important;
+    }
+
+    .navInContacts {
+        margin-left: 20.1rem !important;
+        margin-top: .45rem !important;
+        position: absolute !important;
+    }
+    
+    .reachOutDiv {
+        grid-gap: 5%;
+        margin-left: 2.6rem !important;
+        margin-top: 2.5rem !important;
+        margin-bottom: 4rem !important;
+        height: 74rem !important;
+        width: 18rem !important;
+        overflow-y: scroll !important;
+        position: sticky !important;
+    }
+    
+    .reachOutInsta {
+        width: 80% !important;
+    }
+    
+    .reachOutEmail {
+        width: 80% !important;
+        padding: 1.5% !important;
+    }
+    
+    
+    .reachOutTweet {
+        width: 80% !important;
+    }
+
+    .footerDiv4Landing {
+        position: relative !important;
+        margin-left: -16rem !important;
+        margin-top: 4rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+
+    }
+
+    .mySocials {
+        width: 15rem !important;
+    }
+
+    .socialOptionUL2 {
+        list-style-type: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 2% !important;
+        border: 5px solid #ffffff; 
+        background-color: transparent;
+        margin-bottom: -2rem !important;
+    }
+    
+}
+
+
+/* ---------------------iphoneX 6/7/8 PLUS [414 by 736] + PIXEL2[411 by 731]  + PIXEL2XL [411 by 823]---------------------- */
+@media (min-width: 400px) and (max-height: 840px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contactMain {
+        background-repeat: no-repeat !important;
+        background-size: 900px 1300px !important;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+    
+    .div4Intro {
+        width: 22rem !important;
+        height: 12rem !important;
+    }
+    .styleContact {
+        margin-left: 3rem;
+        margin-top: 6rem !important;
+        font-size: 26px !important;
+    }
+
+    .styleContact2 {
+        margin-left: 3rem !important;
+        font-size: 30px !important;
+    }
+
+    .styleResume {
+        margin-left: 8rem !important;
+        margin-bottom: 2rem !important;
+        font-size: 34px !important;
+    }
+
+    .styleResume:hover {
+        text-decoration: line-through #ffffff !important;
+    }
+
+    a.visited, a:link, a:active{
+        text-decoration: none !important;
+    }
+
+    .navInContacts {
+        margin-left: 22.3rem !important;
+        margin-top: .45rem !important;
+        position: absolute !important;
+        z-index: 500 !important;
+    }
+    
+    .reachOutDiv {
+        grid-gap: 5%;
+        margin-left: 2rem !important;
+        margin-top: 3rem !important;
+        margin-bottom: 4rem !important;
+        height: 74rem !important;
+        width: 22rem !important;
+        overflow-y: scroll !important;
+        position: sticky !important;
+    }
+    
+    .reachOutInsta {
+        width: 98% !important;
+    }
+    
+    .reachOutEmail {
+        width: 98% !important;
+        padding: 1% !important;
+        font-size: medium !important;
+    }
+    
+    
+    .reachOutTweet {
+        width: 98% !important;
+    }
+
+    .footerDiv4Landing {
+        position: relative !important;
+        margin-left: -16rem !important;
+        margin-top: 4rem !important;
+        display: flex !important;
+        justify-content: space-between !important;
+
+    }
+
+    .mySocials {
+        width: 22rem !important;
+    }
+
+    .socialOptionUL2 {
+        list-style-type: none !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 2% !important;
+        border: 5px solid #ffffff; 
+        background-color: transparent;
+        margin-bottom: -2rem !important;
+    }
+    
+}
+
+/* ------------------------------------------------------ iPad REGULAR ----------------------------------------- */
+@media (min-width: 768px) and (min-height: 1024px) {
+    
+    
+}
+
+
+
+ /* ----------------------------------------- IPAD LANDSCAPE VIEW- Responsiveness ----------------------*/
+ @media (min-width: 1024px) and (max-height: 850px) {
+    
+    
+}
+
+
+
+/* ------------------------------------------iPad PRO RESPONSIVENESS REG LAYOUT 1366 height---------------------- */
+@media (min-width: 1024px) and (min-height: 1365px) {
+    
+    
+}
+
+
+
+
+/* ---------------------------------------------- MacBookAir Responsiveness1 1280 by 800 ----------------------------------*/
+@media (min-width: 1280px) and (max-height: 801px) {
+
+   
+
+}
+
+
+
+/* ---------------------------------------DESKTOP TOUCH WITH 950 HEIGHT Responsiveness ----------------------*/
+@media (min-width: 1280px) and (min-height: 940px) {
+
+   
+    
+}
+
+
+
+
+/* ------------------------------------------iPad PRO RESPONSIVENESS LANDSCAPE LAYOUT 1024 height---------------------- */
+@media (min-width: 1365px) and (min-height: 1023px) {
+
+    
+}
+
+
+/* ---------------------------------------------- MacBookAir ResponsivenessMYMAC REGULAR----------------------------------*/
+@media (min-width: 1440px) and (max-height: 740px) {
+
+
+    
+    
+}
+
+
+
+/* ---------------------------------------------- MacBookAir ResponsivenessMYMAC EXPANDED----------------------------------*/
+@media (min-width: 1440px) and (min-height: 750px) {
+
+
+
+  
+}
+
+
+/* ---------------------------------------------------DESKTOP WITH HIGHDPI Responsiveness 1440 by 900--------------------------------------------------*/
+@media (min-width: 1440px) and (min-height: 800px) {
+
+    
+
 }
