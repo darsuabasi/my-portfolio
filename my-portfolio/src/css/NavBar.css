@@ -171,6 +171,7 @@ a.nav-selected:hover {
         width: 10%;
         height: 10%;
         padding-top: 5%;
+        z-index: 100;
     }
 
 
@@ -571,7 +572,7 @@ a.nav-selected:hover {
         font-size: 24px;
         font-weight: 700 !important;
         text-transform: uppercase;
-        z-index: 1;
+        z-index: 100;
         width: 48rem;
         height: 10rem;
         padding-top: 3%;
