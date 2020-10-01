@@ -17,9 +17,8 @@
     height: 0;
     padding: 65% 0;
     padding-left: 1rem;
-    /* padding controls height, will always be perfectly square regardless of width */
     position: relative;
-    opacity: 0.5;
+    /* opacity: 0.6 !important; */
   }
   
   .img-wrap img{
@@ -50,7 +49,7 @@
       height: auto !important;
       padding: none !important;
       padding-left: none !important;
-      opacity: 0.8 !important;
+      /* opacity: 0.6 !important; */
     }
 
     .img-wrap img{
@@ -82,7 +81,7 @@
       height: auto !important;
       padding: none !important;
       padding-left: none !important;
-      opacity: 0.8 !important;
+      /* opacity: 0.6 !important; */
       padding-top: 50% !important;
     }
 
@@ -112,7 +111,7 @@
     }
 
     .img-wrap{
-      opacity: 0.8 !important;
+      /* opacity: 0.6 !important; */
       padding-top: 50% !important;
     }
   }
@@ -134,7 +133,7 @@
     }
 
     .img-wrap{
-      opacity: 0.8 !important;
+      /* opacity: 0.6 !important; */
       padding-top: 50% !important;
     }
   }
@@ -163,7 +162,7 @@
     }
 
     .img-wrap{
-      opacity: 0.8 !important;
+      /* opacity: 0.6 !important; */
       padding-top: 10% !important;
     }
     
@@ -344,13 +343,9 @@
     position: absolute !important;
     width: 360px !important;
     display:block !important;
-    opacity: none !important;
+    /* opacity: none !important; */
     top: 3 !important;
     bottom: 5 !important;
     overflow: hidden !important;
   }
 }
-
-
-
-

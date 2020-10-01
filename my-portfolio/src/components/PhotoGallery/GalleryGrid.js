@@ -9,12 +9,12 @@ const GalleryGrid = ({ }) => {
       {Images && Images.map(Images => (
         <motion.div className="img-wrap" 
           layout
-          whileHover={{ opacity: 1 }}s
+          whileHover={{ opacity: 0.9 }}s
         >
           <motion.img className="galleryImageStyling" style={{width:"550px", height:"500px", borderRadius:"0.5rem"}} src={Images} alt="Gallery Photo"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1 }}
+            initial={{ opacity: 0.5 }}
+            animate={{ opacity: 0.9 }}
+            transition={{ delay: 2 }}
           />
         </motion.div>
       ))}
