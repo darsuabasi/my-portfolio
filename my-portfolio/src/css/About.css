@@ -306,8 +306,71 @@
 }
 
 
-/* -------------------------------------------iphoneX 375 by 812 /// 6, 7, 8-------------------------------------------------- */
-@media (min-width: 375px) and (max-height: 815px) {
+
+
+/* -------------------------------------------iphone/// 6, 7, 8-------------------------------------------------- */
+@media (min-width: 375px) and (height: 667px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .videoBox {
+        visibility: hidden !important;
+    }
+    
+    .videoContain {
+        visibility: hidden !important;
+    }
+
+    .AboutMain {
+        background-image: url('../assets/aboutBGRes5.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 600px 950px;
+        overflow: hidden !important; 
+    } 
+    
+    .navInAbout {
+        margin-left: 20rem;
+        margin-top: -23.1rem;
+        position: absolute !important;
+    }
+
+    .divForExtras {
+        width: 18.5rem !important;
+        margin-left: 1.3rem !important;
+        margin-top: -16rem !important;
+    }
+    
+    .aboutParaDiv {
+        width: 18.5rem !important;
+        height: 30rem !important;
+        border: none !important;
+        box-shadow: 3px 3px 3px 3px #cb0000 !important;
+    }
+    
+    .aboutmepara { 
+        font-size: 1.4rem !important;
+        width: 18.5rem !important;
+    }
+   
+    .typingComp {
+        height: 14rem !important;
+    }
+    
+    
+    .picOfMe {
+        border-radius: 1rem;
+        width: 305px !important;
+        height: 250px !important;
+        margin-left: -0.3rem !important;
+        margin-top: -1rem;
+    }
+}
+
+
+/* -------------------------------------------iphoneX 375 by 812-------------------------------------------------- */
+@media (min-width: 375px) and (min-height: 805px) {
     * {
         padding: 0;
         margin: 0;
@@ -330,7 +393,7 @@
     
     .navInAbout {
         margin-left: 20rem;
-        margin-top: -24.2rem;
+        margin-top: -25.8rem;
         position: absolute !important;
     }
     
@@ -342,7 +405,7 @@
     
     .aboutParaDiv {
         width: 18.5rem !important;
-        height: 30rem !important;
+        height: 36rem !important;
         border: none !important;
         box-shadow: 3px 3px 3px 3px #cb0000 !important;
     }
@@ -766,14 +829,14 @@
     
     .navInAbout {
         margin-left: 36rem;
-        margin-top: -50.3rem;
+        margin-top: -61.5rem !important;
         position: absolute !important;
     }
     
     .divForExtras {
         width: 38rem !important;
         margin-left: 10rem !important;
-        margin-top: -38rem !important;
+        margin-top: -48rem !important;
     }
     
     .aboutParaDiv {
@@ -984,29 +1047,33 @@
     .divForExtras {
         width: 44rem !important;
         margin-left: 24rem !important;
-        margin-top: 1rem !important;
+        margin-top: -44rem !important;
+        z-index: 100 !important;
     
     }
     
     .aboutParaDiv {
         width: 44rem !important;
-        height: 35rem !important;
+        height: 36rem !important;
         border: 5px solid #c42323 !important;
         box-shadow: 5px 10px 5px 10px #cb0000 !important;
         padding: 1rem !important;
         border-radius: 1rem !important;
+        z-index: 100 !important;
     }
     
     .aboutmepara { 
         font-size: 1.3rem !important;
         width: 42rem !important;
         margin-bottom: 1rem !important;
+        z-index: 100 !important;
     }
      
  
     .typingComp {
-        height: 6rem !important;
+        height: 10rem !important;
         margin-top: 1rem !important;
+        z-index: 100 !important;
     }
     
     .picOfMe {
@@ -1015,5 +1082,6 @@
         height: 350px !important;
         margin-left: 7rem !important;
         margin-bottom: 1.5rem !important;
+        z-index: 100 !important;
     }
 }
