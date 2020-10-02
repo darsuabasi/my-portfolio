@@ -1,11 +1,11 @@
 import React from 'react';
 import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
-import '../css/Contact.css';
 import twitter from '../assets/twitter.svg';
 import instagram from '../assets/instagram.svg';
 import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
+import '../css/Contact.css';
 
 const Contact = () => {
 
@@ -54,10 +54,9 @@ const Contact = () => {
             <li className="servicesLI"> Logos </li>
           </ul>
 
-
           <div className="div4email">
             <p> Feel free to reach out and I'll get back to you as soon as possble.</p>
-            <h3 className="emailInContact"> <a className="linksInContact two" href="mailto:uduakabasiabasiurua@pursuit.org">uduakabasiabasiurua@pursuit.org</a>  </h3>
+            <h3 className="emailInContact"> <a className="linksInContact two" href="mailto:uduakabasiabasiurua@pursuit.org">Email Here</a>  </h3>
           </div>
 
 
@@ -82,7 +81,6 @@ const Contact = () => {
               <li className="socialOption">
                 <a href="https://twitter.com/darsucodes">
                   <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
-                    {/* <img src="https://img.icons8.com/fluent/100/000000/twitter.png"/> */}
                 </a>
               </li>
 
@@ -103,38 +101,6 @@ const Contact = () => {
 
 
       </div>
-
-      <div className="footerDiv4Landing"> 
-                <ul className="socialOptionUL">
-
-                    <li lassName="socialOption">
-                        <a href="https://github.com/darsuabasi">
-                            <img id="insta" className="logos4contact" src={github} alt="github" />
-                        </a>
-                    </li>
-
-                    <li className="socialOption">
-                        <a href="https://twitter.com/darsucodes">
-                            <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
-                            {/* <img src="https://img.icons8.com/fluent/100/000000/twitter.png"/> */}
-                        </a>
-                    </li>
-
-                    <li lassName="socialOption">
-                        <a href="https://www.instagram.com/darsu.chats/">
-                            <img id="insta" className="logos4contact" src={instagram} alt="instagram" />
-                        </a>
-                    </li>
-
-                    
-                    <li lassName="socialOption">
-                        <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/">
-                            <img id="linkd" className="logos4contact" src={linkedin} alt="linkedin" />
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
 
     </div>  
   )
