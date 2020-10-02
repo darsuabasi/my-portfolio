@@ -25,7 +25,7 @@ const About = () => {
 
       <video className="videoBox"
           autoPlay
-          muted
+          // muted
           loop
           id="background-video"
           style={{ 
