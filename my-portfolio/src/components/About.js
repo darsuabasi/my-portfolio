@@ -24,9 +24,9 @@ const About = () => {
       <div className="videoContain">
 
       <video className="videoBox"
-          autoPlay
+          autoPlay={false}
           // muted
-          loop
+          loop={false}
           id="background-video"
           style={{ 
             // position: "absolute", 
