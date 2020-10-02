@@ -4,7 +4,7 @@ import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
 import AboutBG from '../assets/AboutBG.mp4';
 import mePic from '../assets/mePic.jpg';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const About = () => {
   const backgroundCss = {
@@ -69,11 +69,11 @@ const About = () => {
             <h3 className="miniBio"> sometimes </h3>
           </Typing>
 
-            <img className="picOfMe" style={{width:"450px"}} alt="photo of uduakabasi" src={mePic}/>
+            <img className="picOfMe" style={{width:"450px"}} alt="uduakabasi" src={mePic}/>
        
 
             <p className="aboutmepara"> 
-            Born in Nigeria, raised in the capital of hustle, NYC. 
+            Born in Nigeria, raised in the hustle capital of the world, NYC. 
             Two years ago, I graduted with a Bachelors of Science in Criminal Justice with a focus in Intelligence Analyis. 
             A year into graduting, I came across a Microsoft sponsored Hackathon by Enza Academy. I can't lie, I attended because 
             I thought it meant they would teach you how to hack things but boy was I wrong. I spent 48 hours forging new friendships, 
@@ -97,7 +97,7 @@ const About = () => {
 
             <p className="aboutmepara">
             As a software developer, my goal is to create advancements in the intelligence and medical community through technology 
-            and research. Next up, Law School... after the LSAT's of course. Oh and my green belt 🥋
+            and research. Next up, Law School... after the LSAT's of course. Oh and my green belt <span role="img" alt="judo gi"> 🥋 </span> 
             </p> 
 
 

@@ -3,14 +3,7 @@ import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
 import '../css/Skills.css';
 import styled, { keyframes } from "styled-components";
-import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight, bounceInUp, bounceOutDown, bounceOutLeft, 
-  bounceOutRight, bounceOutUp, fadeIn, fadeInDown, fadeInDownBig, fadeInLeft, fadeInLeftBig, fadeInRight, fadeInRightBig, fadeInUp, 
-  fadeInUpBig, fadeOut, fadeOutDown, fadeOutDownBig, fadeOutLeft, fadeOutLeftBig, fadeOutRight, fadeOutRightBig, fadeOutUp, fadeOutUpBig, 
-  flash, flip, flipInX, flipInY, flipOutX, flipOutY, headShake, hinge, jello, lightSpeedIn, lightSpeedOut, pulse, rollIn, rollOut, rotateIn, 
-  rotateInDownLeft, rotateInDownRight, rotateInUpLeft, rotateInUpRight, rotateOut, rotateOutDownLeft, rotateOutDownRight, rotateOutUpLeft,
-  rotateOutUpRight, rubberBand, shake, slideInDown, slideInLeft, slideInRight, slideInUp, slideOutDown, slideOutLeft, slideOutRight, 
-  slideOutUp, swing, tada, wobble, zoomIn, zoomInDown, zoomInLeft, zoomInRight, zoomInUp, zoomOut, zoomOutDown, zoomOutLeft, 
-  zoomOutRight, zoomOutUp, merge } from "react-animations";
+import { bounce, hinge, rotateInDownLeft, rubberBand, slideInRight } from "react-animations";
 
   import html_css_js from '../assets/html_css_js.png';
   import nodejs from '../assets/nodejs.png';
@@ -26,12 +19,12 @@ import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight,
   const Skills = () => {
     
     const Bounce = styled.div`animation: 10s ${keyframes `${bounce}`} infinite`;
-    const Flip = styled.div`animation: 5s ${keyframes `${flip}`} infinite`;
+    // const Flip = styled.div`animation: 5s ${keyframes `${flip}`} infinite`;
     const RotateInDownLeft = styled.div`animation: 5s ${keyframes `${rotateInDownLeft}`} infinite`;
     const RubberBand = styled.div`animation: 5s ${keyframes `${rubberBand}`} infinite`;
-    const Tada = styled.div`animation: 5s ${keyframes `${tada}`} infinite`;
+    // const Tada = styled.div`animation: 5s ${keyframes `${tada}`} infinite`;
     const Hinge = styled.div`animation: 8s ${keyframes `${hinge}`} infinite`;
-    const Jello = styled.div`animation: 5s ${keyframes `${jello}`} infinite`;
+    // const Jello = styled.div`animation: 5s ${keyframes `${jello}`} infinite`;
     const SlideInRight = styled.div`animation: 20s ${keyframes `${slideInRight}`} infinite`;
     
     // const tadaFlip = merge(tada, flip);
@@ -64,35 +57,35 @@ import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight,
         <ul className="skillsListUL">
 
         <Bounce>
-          <img className="ThreeSkills" src={html_css_js}/>
+          <img className="ThreeSkills" alt="html_css_javascript" src={html_css_js}/>
         </Bounce>
 
 
         {/* <Bounce> */}
-          <img className="nodejsSkill" src={nodejs}/>
+          <img className="nodejsSkill" alt="node.js" src={nodejs}/>
         {/* </Bounce> */}
 
         {/* <Tada> */}
-          <img className="expressSkill" src={expressJS}/>
+          <img className="expressSkill" alt="express" src={expressJS}/>
         {/* </Tada> */}
 
         {/* <Flip> */}
-          <img className="reactSkill" src={react}/>
+          <img className="reactSkill" alt="react" src={react}/>
         {/* </Flip> */}
 
           {/* <li className="skillsListLI"> PostgreSQL </li> */}
-          <img className="postgresqlSkill" src={postgresql}/>
+          <img className="postgresqlSkill" alt="postgreSQL" src={postgresql}/>
 
-          <img className="illustratorSkill" src={illustrator}/>
+          <img className="illustratorSkill" alt="illustrator" src={illustrator}/>
 
 
           {/* <li className="skillsListLI"> React </li> */}
-          <img className="gitSkill" src={gitLogo}/>
+          <img className="gitSkill" alt="git" src={gitLogo}/>
 
 
           {/* <li className="skillsListLI"> Postman </li> */}
         <SlideInRight>
-          <img className="postmanSkill" src={postman}/>
+          <img className="postmanSkill" alt="postman" src={postman}/>
         </SlideInRight>
 
         <RubberBand>
@@ -103,7 +96,7 @@ import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight,
         
         <Hinge>
           {/* <li className="skillsListLI"> Redux </li> */}
-          <img className="reduxSkill" src={reduxLogo}/>
+          <img className="reduxSkill" alt="redux" src={reduxLogo}/>
         </Hinge>
 
         <RotateInDownLeft>

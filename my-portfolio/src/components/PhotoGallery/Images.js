@@ -1,4 +1,3 @@
-import React from 'react';
 import lightingInSear from '../../galleryImages/lightingInSear.JPG';
 import lijMontree from '../../galleryImages/lijMontree.jpeg';
 import noniMontree from '../../galleryImages/noniMontree.JPG';
