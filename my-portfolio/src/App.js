@@ -1,13 +1,12 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter, useLocation } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './App.css';
-import NavBar from './components/NavBar'
-import About from './components/About'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import Photography from './components/Photography'
-import Contact from './components/Contact'
-import Error from './components/Error'
+import About from './components/About';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Photography from './components/Photography';
+import Contact from './components/Contact';
+import Error from './components/Error';
 import Landing from './components/Landing';
 import { AnimatePresence } from "framer-motion";
 

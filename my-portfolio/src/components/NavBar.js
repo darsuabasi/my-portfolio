@@ -1,7 +1,5 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom' 
+import React from 'react';
 import '../css/NavBar.css';
-import { hamburgerMenu2 } from '../assets/hamburgerMenu2.png'
 
 const NavBar = () => {
       return(

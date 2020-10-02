@@ -3,11 +3,11 @@ import '../css/Projects.css';
 import NavBar from './NavBar';
 import Typing from 'react-typing-animation';
 import zoovioApp from '../assets/zoovioApp.png';
-import cloutApp from '../assets/cloutApp.png';
+// import cloutApp from '../assets/cloutApp.png';
 import aatgApp from '../assets/aatgApp.png';
-import pinterestApp from '../assets/pinterestApp.jpeg';
+// import pinterestApp from '../assets/pinterestApp.jpeg';
 import pinterestApp2 from '../assets/pinterestApp2.jpeg';
-import letsgoApp from '../assets/letsgoApp.png';
+// import letsgoApp from '../assets/letsgoApp.png';
 
 
 const Projects = () => {
@@ -29,10 +29,10 @@ const Projects = () => {
             <div className="projectDiv">
               <div className="allProjects">
                 <div className="projectOne">
-                  <img  className="appScreenshots" href="https://zoovio.netlify.app/" style={{width:"350px"}} src={zoovioApp}/>
+                  <img  className="appScreenshots" alt="zoovioApp" href="https://zoovio.netlify.app/" style={{width:"350px"}} src={zoovioApp}/>
                   <h2 className="projectName top"> ZooVio</h2>
                     <div className="codeDiv">
-                      <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets! 😁  </a>
+                      <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets! <span role="img" alt="smile emoji"> 😁 </span> </a>
                       <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio">    Check out the code.</a>
                     </div>
                   <p className="bioForTheProject"> 
@@ -52,7 +52,7 @@ const Projects = () => {
                 </div>
 
                 <div className="projectTwo">
-                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={aatgApp}/>
+                  <img className="appScreenshots" alt="allAboutTheGreenApp" style={{width:"350px", height:"200px"}} src={aatgApp}/>
                   <h2 className="projectName top"> All About the Green </h2>
                   <div className="codeDiv"> 
                     <a className="checkOutTheCode" href="https://github.com/darsuabasi/AllAboutTheGreen"> Check out the code.</a>
@@ -73,10 +73,10 @@ const Projects = () => {
                 </div>
 
                 <div className="projectThree">
-                  <img className="appScreenshots" style={{width:"350px", height:"200px"}} src={pinterestApp2}/>
+                  <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"200px"}} src={pinterestApp2}/>
                   <h2 className="projectName top"> Pinterest Clone</h2>
                   <div className="codeDiv">
-                    <a className="appLink" href="https://mock-trest.netlify.app/"> Happy Pinning 😁 </a>
+                    <a className="appLink" href="https://mock-trest.netlify.app/"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
                     <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest">Check out the code.</a>
                   </div>
                   <p className="bioForTheProject">
