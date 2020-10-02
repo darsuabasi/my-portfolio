@@ -127,12 +127,6 @@
     text-decoration: none;
 }
 
-
-
-
-
-
-
 /* ---------------------------------GALAXY FOLD Responsiveness--------------------------------*/
 @media (max-width: 280px) {
     .ProjectMain {
@@ -175,14 +169,12 @@
         width: 16rem !important;
         font-size: 20px !important;
     }
-    
 }
-
 
 /* ------------------------------------ iphoneX 5/SE 320 by 568 --------------------------------------- */
 @media (min-width: 320px) and (max-height: 580px) {
     .ProjectMain {
-        background-repeat: no-repeat;
+        background-repeat: no-repeat !important;
         background-size: 1100px 900px !important;
         overflow-x: hidden !important;
         overflow-y: scroll !important;
@@ -199,6 +191,14 @@
         margin-top: 5rem !important;
         margin-bottom: 2rem !important;
         width: 10rem !important;
+    }
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 22rem !important;
+        margin-top: -1rem;
+        width: 24rem !important;
     }
     
     .allProjects {
@@ -224,20 +224,17 @@
    
 }
 
-
-
-
 /* -------------------------------------------glaxay s5 / moto g4 360 by 640 -------------------------------------------------- */
 @media (min-width: 360px) and (max-height: 650px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1100px !important;
         overflow-x: hidden !important;
-        overflow-y: scroll !important;
+        overflow-y: hidden !important;
     }
     
     .navInProjects  {
-        margin-left: 18.6rem !important;
+        margin-left: 18.99rem !important;
         margin-top: .5rem !important;
         position: absolute !important;
     }
@@ -248,9 +245,86 @@
         margin-bottom: 2rem !important;
         width: 20rem !important;
     }
-    
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 22rem !important;
+        margin-top: -1rem;
+        width: 24rem !important;
+    }
+
+    .projectDiv {
+        justify-content: center !important;
+    }
+
     .allProjects {
         margin-left: 0.9rem !important;
+        grid-gap: 3rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 330px !important;
+        height: 250px !important;
+    }
+
+    .bioForTheProject {
+        font-size: 24px !important;
+        width: 21rem !important;
+    }
+
+    .codeDiv {
+        width: 20rem !important
+    }
+    
+    .whatsNext {
+        font-size: 22px !important;
+    }
+}
+
+/* -------------------------------------------iphone/// 6, 7, 8-------------------------------------------------- */
+@media (min-width: 375px) and (max-height: 667px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .ProjectMain {
+        background-repeat: no-repeat !important;
+        background-size: 1100px 1300px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+    }
+    
+    .navInProjects  {
+        margin-left: 20rem !important;
+        margin-top: .5rem !important;
+        position: absolute !important;
+    }
+    
+    .styleProj {
+        margin-left: 2.5rem !important;
+        margin-top: 5rem !important;
+        margin-bottom: 2rem !important;
+        width: 20rem !important;
+    }
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 30rem !important;
+        margin-top: -4rem;
+        width: 24rem !important;
+
+    }
+
+    .projectDiv {
+        justify-content: center !important;
+    }
+
+    .allProjects {
+        margin-left: 1.5rem !important;
         grid-gap: 3.5rem !important;
     }
     
@@ -262,17 +336,21 @@
 
     .bioForTheProject {
         font-size: 24px !important;
+        width: 21rem !important;
+    }
+
+    .codeDiv {
+        width: 20rem !important
     }
     
     .whatsNext {
         font-size: 22px !important;
     }
-    
 }
 
 
 /* -------------------------------------------iphoneX 375 by 812 -------------------------------------------------- */
-@media (min-width: 375px) and (max-height: 815px) {
+@media (min-width: 375px) and (height: 812px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1300px !important;
@@ -292,22 +370,44 @@
         margin-bottom: 2rem !important;
         width: 20rem !important;
     }
-    
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 40rem !important;
+        margin-top: -4rem;
+        width: 24rem !important;
+
+    }
+
+    .projectDiv {
+        justify-content: center !important;
+    }
+
     .allProjects {
-        margin-left: 0.8rem !important;
+        margin-left: 1.5rem !important;
         grid-gap: 3.5rem !important;
+    }
+    
+    .appScreenshots {
+        border-radius: 1rem !important;
+        width: 330px !important;
+        height: 250px !important;
     }
 
     .bioForTheProject {
         font-size: 24px !important;
+        width: 21rem !important;
+    }
+
+    .codeDiv {
+        width: 20rem !important
     }
     
     .whatsNext {
         font-size: 22px !important;
     }
-    
 }
-
 
 /* ---------------------iphoneX 6/7/8 PLUS [414 by 736] + PIXEL2[411 by 731]  + PIXEL2XL [411 by 823]---------------------- */
 @media (min-width: 400px) and (max-height: 830px) {
@@ -330,7 +430,14 @@
         margin-bottom: 2rem !important;
         width: 20rem !important;
     }
-    
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 32rem !important;
+        margin-top: -2rem;
+        width: 26rem !important;
+    }
     
     .allProjects {
         margin-left: 1rem !important;
@@ -352,10 +459,11 @@
         width: 24rem !important;
         font-size: 24px !important;
     }
-    
-    
-}
 
+    .codeDiv {
+        width: 22rem !important
+    }
+}
 
 
 /* ------------------------------------------------------ iPad ----------------------------------------- */
@@ -364,7 +472,7 @@
         background-repeat: no-repeat;
         background-size: 1200px 1200px !important;
         overflow-x: hidden !important;
-        overflow-y: scroll !important;
+        overflow-y: hidden !important;
     }
     
     .navInProjects  {
@@ -375,19 +483,31 @@
     
     .styleProj {
         margin-left: 13rem !important;
-        margin-top: 6rem !important;
+        margin-top: 8rem !important;
         margin-bottom: 2rem !important;
         width: 25rem !important;
         font-size: 40px !important;
         margin-bottom: 3rem !important;
     }
 
-    
-    .allProjects {
-        margin-left: 10rem !important;
-        grid-gap: 3.5rem !important;
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 44rem !important;
+        width: 60rem !important;
+        margin-top: -4rem !important;
+    }
+
+    .projectDiv {
+        width: 65rem !important;
+        margin-left: -12rem;
     }
     
+    .allProjects {
+        margin-left: 21.8rem !important;
+        grid-gap: 3rem !important;
+    }
+
     .appScreenshots {
         border-radius: 1rem !important;
         width: 450px !important;
@@ -395,18 +515,19 @@
     }
     
     .bioForTheProject {
-        width: 30rem !important;
+        width: 29rem !important;
         font-size: 20px !important;
     }
     
     .whatsNext {
-        width: 30rem !important;
+        width: 29rem !important;
         font-size: 22px !important;
     }
 
+    .codeDiv {
+        width: 29rem !important;
+    }
 }
-
-
 
  /* ----------------------------------------- IPAD LANDSCAPE VIEW- Responsiveness ----------------------*/
  @media (min-width: 1024px) and (max-height: 850px) {
@@ -414,7 +535,7 @@
         background-repeat: no-repeat;
         background-size: 1700px 2100px !important;
         overflow-x: hidden !important;
-        overflow-y: scroll !important;
+        overflow-y: hidden !important;
     }
     
     .navInProjects  {
@@ -431,21 +552,35 @@
         font-size: 40px !important;
         margin-bottom: 3rem !important;
     }
-    
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 34rem !important;
+        margin-top: -2rem !important;
+        width: 60rem !important;
+
+    }
+
+    .projectDiv {
+        width: 30rem !important;
+    }
     
     .allProjects {
         margin-left: 10rem !important;
         grid-gap: 3.5rem !important;
     }
-    
+
+    .codeDiv {
+        width: 40rem !important;
+    }
+
     .appScreenshots {
-        /* border-radius: 1.5rem; */
         border-radius: 1rem !important;
         width: 700px !important;
         height: 450px !important;
     }
     
-
     .projectName.top {
         font-size: 30px !important;
     }
@@ -464,15 +599,11 @@
         font-size: 30px !important;
     }
     
-    
     .whatsNext {
         width: 45rem !important;
         font-size: 26px !important;
     }
-
 }
-
-
 
 /* ------------------------------------------iPad PRO RESPONSIVENESS REG LAYOUT 1366 height---------------------- */
 @media (min-width: 1024px) and (min-height: 1365px) {
@@ -497,10 +628,20 @@
         font-size: 40px !important;
         margin-bottom: 3rem !important;
     }
-    
+
+    .projectsSec {
+        overflow-y: scroll !important;
+        height: 58rem !important;
+        margin-top: -10rem;
+
+    }
+
+    .projectDiv {
+        width: 30rem;
+    }
     
     .allProjects {
-        margin-left: 10rem !important;
+        margin-left: 22rem !important;
         grid-gap: 3.5rem !important;
     }
     
@@ -513,7 +654,6 @@
     .projectName.top {
         font-size: 30px !important;
     }
-    
     
     .appLink {
         font-size: 24px !important;
@@ -528,16 +668,11 @@
         font-size: 30px !important;
     }
     
-    
     .whatsNext {
         width: 45rem !important;
         font-size: 26px !important;
     }
-    
 }
-
-
-
 
 /* ---------------------------------------------- MacBookAir Responsiveness1 1280 by 800 ----------------------------------*/
 @media (min-width: 1280px) and (max-height: 801px) {
@@ -550,6 +685,10 @@
     .ProjectMain {
         background-size: 1400px 910px !important;
         overflow: hidden !important;
+        background-color: #f9b203;
+        height: 100vh !important;
+        display: grid !important;
+        background-repeat: no-repeat !important;
     }
     
     .navInProjects  {
@@ -563,21 +702,29 @@
     .styleProj {
         color: #cb0000;
         margin-left: 3rem !important;
-        margin-top: 3%;
-        font-style: italic;
-        position: static;
-        margin-top: 6rem !important;
+        margin-top: 8rem !important;
+    }
+
+    .projectsSec {
+        display: flex !important;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+        height: 38rem !important;
+        margin-top: 2rem;
+        width: 90rem !important;
     }
     
     
     .allProjects {
+        margin-left: 6rem !important;
+        padding-top: 2.4% !important;
+        margin-top: -0.1rem !important;
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: wrap !important;
         grid-gap: 3rem !important;
-        margin-left: 8rem !important;
-        padding-top: 2.4% !important;
-        margin-top: -3rem !important;
+        position: sticky !important;
+        width: 80rem !important;
     }
     
     .appScreenshots {
@@ -626,8 +773,6 @@
         justify-content: center !important;
         margin-left: 3.5rem !important;
     }
-    
-
 }
 
 
@@ -686,11 +831,27 @@
         margin-bottom: 3rem !important;
     }
 
+    .projectsSec {
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+        height: 42rem !important;
+        width: 60rem !important;
+        margin-top: -1rem;
+        margin-left: 6.5rem;
+    }
+
+    .projectDiv {
+        width: 60rem;
+    }
 
     .allProjects {
-        margin-left: 22rem !important;
+        margin-left: 26rem !important;
         margin-top: 0.5rem !important;
         grid-gap: 3.5rem !important;
+    }
+
+    .codeDiv {
+        width: 44rem !important;
     }
     
     .appScreenshots {
@@ -703,7 +864,6 @@
         font-size: 30px !important;
     }
     
-    
     .appLink {
         font-size: 24px !important;
     }
@@ -713,10 +873,10 @@
     }
     
     .bioForTheProject {
-        width: 45rem !important;
+        width: 44rem !important;
         font-size: 30px !important;
+        padding-left: 0.5rem;
     }
-    
     
     .whatsNext {
         width: 45rem !important;
@@ -731,7 +891,7 @@
         background-size: 1500px 1000px !important;
         background-repeat: no-repeat;
         overflow-x: hidden !important;
-        overflow-y: visible !important;
+        overflow-y: hidden !important;
     }
     
     .navInProjects  {
@@ -742,38 +902,53 @@
     }
     
     .styleProj {
-        margin-top: 7.5rem !important;
+        margin-top: 5rem !important;
         position: sticky !important;
     }
-    
+
+    .projectsSec {
+        display: flex !important;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+        height: 38rem !important;
+        margin-top: 1rem;
+        width: 90rem !important;
+    }
     
     .allProjects {
-        margin-left: 12rem !important;
-        padding-top: 2.4% !important;
-        margin-top: -3rem !important;
+        margin-left: 10rem !important;
+        padding-top: 2% !important;
+        margin-top: -0.1rem !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        grid-gap: 3rem !important;
+        position: sticky !important;
+        width: 80rem !important;
+        overflow: hidden !important;
     }
     
     .appScreenshots {
         border-radius: 1rem !important; 
-        width: 380px !important;
-        height: 250px !important;
+        width: 360px !important;
+        height: 220px !important;
     }
     
     .appScreenshots:hover {
         transform: scale(1.05) !important;
     }
-    
 }
-
 
 
 /* ---------------------------------------------- MacBookAir ResponsivenessMYMAC EXPANDED----------------------------------*/
 @media (min-width: 1440px) and (min-height: 750px) {
     .ProjectMain {
         background-size: 1500px 1000px !important;
-        background-repeat: no-repeat;
-        overflow-x: hidden !important;
-        overflow-y: visible !important;
+        background-repeat: no-repeat !important;
+        background-color: #f9b203;
+        height: 100vh !important;
+        display: grid !important;
+        overflow: hidden !important;
     }
     
     .navInProjects  {
@@ -787,13 +962,28 @@
         margin-top: 7.5rem !important;
         position: sticky !important;
     }
-    
-    .allProjects {
-        margin-left: 12rem !important;
-        padding-top: 2.4% !important;
-        margin-top: -3rem !important;
+
+    .projectsSec {
+        display: flex !important;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+        height: 38rem !important;
+        margin-top: 1rem;
+        width: 90rem !important;
     }
     
+    .allProjects {
+        margin-left: 5.5rem !important;
+        padding-top: 2.4% !important;
+        margin-top: -0.1rem !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        grid-gap: 3rem !important;
+        position: sticky !important;
+        width: 80rem !important;
+    }
+
     .appScreenshots {
         border-radius: 1rem !important; 
         width: 380px !important;
@@ -802,14 +992,21 @@
     
     .appScreenshots:hover {
         transform: scale(1.05) !important;
-
     }
-    
 }
 
 
 /* ---------------------------------------------------DESKTOP WITH HIGHDPI Responsiveness 1440 by 900--------------------------------------------------*/
 @media (min-width: 1440px) and (min-height: 800px) {
+
+    .ProjectMain {
+        background-size: 1500px 1000px !important;
+        background-repeat: no-repeat !important;
+        background-color: #f9b203;
+        height: 100vh !important;
+        display: grid !important;
+        overflow: hidden !important;
+    }
     
     .navInProjects  {
         height: 40% !important;
@@ -819,14 +1016,27 @@
     }
     
     .styleProj {
-        margin-top: 10rem !important;
+        margin-top: 6rem !important;
         position: sticky !important;
     }
     
+    .projectsSec {
+        display: flex !important;
+        overflow-y: hidden !important;
+        overflow-x: hidden !important;
+        height: 44rem !important;
+        margin-top: 1rem;
+        width: 90rem !important;
+    }
     
     .allProjects {
-        margin-left: 12rem !important;
-        padding-top: 2.4% !important;
-        margin-top: 0.5rem !important;
+        margin-left: 11rem !important;
+        margin-top: -1rem !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        grid-gap: 3rem !important;
+        position: sticky !important;
+        width: 80rem !important;
     }
 }
