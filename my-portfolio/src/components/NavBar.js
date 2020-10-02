@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../css/NavBar.css';
 
 const NavBar = () => {
@@ -8,12 +9,12 @@ const NavBar = () => {
               <button className="menuIcon dropbtn"> </button>
               {/* <div className="dropdown"> */}
                 <div className="dropdown-content">
-                  <a href="/" className="nav-selected"> Home </a>
-                  <a href="/about" className="nav-selected"> About </a>
-                  <a href="/projects" className="nav-selected"> Projects </a>
-                  <a href="/skills" className="nav-selected"> Skills </a>
-                  <a href="/photography" className="nav-selected"> Photography </a>
-                  <a href="/contact" className="nav-selected"> Contact </a>
+                  <NavLink to={"/"} className="nav-selected"> Home </NavLink>
+                  <NavLink to={"/about"} className="nav-selected"> About </NavLink>
+                  <NavLink to={"/projects"} className="nav-selected"> Projects </NavLink>
+                  <NavLink to={"/skills"} className="nav-selected"> Skills </NavLink>
+                  <NavLink to={"/photography"} className="nav-selected"> Photography </NavLink>
+                  <NavLink to={"/contact"} className="nav-selected"> Contact </NavLink>
                 </div>
               {/* </div>  */}
           </div>
