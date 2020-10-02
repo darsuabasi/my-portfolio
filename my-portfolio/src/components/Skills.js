@@ -52,12 +52,12 @@ import { bounceOut, bounce, bounceIn, bounceInDown, bounceInLeft, bounceInRight,
       </div>
 
       <div 
-        // whileHover={{
-        // scale: 1.2, 
-        // transition: { duration: 1 },
-        // }}
-        // whileTap={{ scale: 0.9 }}
-        // onPan={{scale: 1.2}}
+        whileHover={{
+        scale: 1.2, 
+        transition: { duration: 1 },
+        }}
+        whileTap={{ scale: 0.9 }}
+        onPan={{scale: 1.2}}
         className="skillsDiv"
         >
 
