@@ -85,7 +85,7 @@ const About = () => {
             <p className="aboutmepara">
             From that moment, I knew coding was for me. In a few months, I began my new journey at Pursuit, an intensive 12-month 
             Google-funded software engineering fellowship with a 9% acceptance rate. It wasn't an easy one. I hit some of my 
-            lowest lows but with the help and support of my amazing instructor, PM, mentors, family and friends, I made it through and I'm only 
+            lowest lows but with the help and support of my amazing instructor, program manager, mentors, family and friends, I made it through and I'm only 
             getting started.
             </p>
             
@@ -103,7 +103,7 @@ const About = () => {
 
             <p className="aboutmepara">
             So now that you've dived super deep, what else is there to know? Well, hopefully once you take the journey through 
-            this work of art, you'll feel my love for UX/UI design, animation and graphics. I also can bet that you woudln't guess that I 
+            this work of art, you'll feel my love for UX/UI design, animation and graphics. I can also bet that you woudln't guess that I 
             actully love working on the backend of web development but don't feel bad, it's a pretty playful design here.
             </p> 
 
