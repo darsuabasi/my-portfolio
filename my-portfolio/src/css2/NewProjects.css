@@ -1,0 +1,112 @@
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+  }
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+.projectMain {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    background-image: url('../assets/ProjectsBG4.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.subContain {
+    display: grid;
+    margin-top: -1rem;
+}
+
+.fullCard {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: transparent;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border: none;
+}
+
+.sheCodes {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* . */
+
+.projectPic {
+    border-radius: 1.5rem;
+}
+
+
+.projectName {
+    font-size: 26px;
+    text-decoration: line-through #ffffff;
+}
+
+.projectName, .projectInfo:hover {
+    color: var(--myRed);
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.projectInfo {
+    color: var(--pureWhite);
+    font-variant: small-caps;
+    /* font-style: italic; */
+    font-weight: 800;
+    font-size: 18px;
+    text-align: start;
+}
+
+.projectInfo:hover {
+    color: var(--myRed);
+}
+
+
+.projectNext {
+    font-size: 16px;
+    color: var(--pureWhite);
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.projectNext:hover {
+    color: var(--myRed)
+}
+
+.allTheCards {
+    margin-top: 0.5rem;
+}
+
+
+
+@media (min-width: 550px) and (min-height: 701px) {
+    .projectMain {
+        background-size: cover;
+        
+    }
+
+}
