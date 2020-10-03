@@ -1,0 +1,35 @@
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+  }
+
+
+/* #yessir {
+    background-color: transparent;
+    color: transparent;
+} */
+
+.nav-selected {
+    color: var(--pureWhite) !important;
+    font-size: 24px !important;
+}
+
+.nav-selected:active {
+    text-decoration: line-through (var(--myRed)) !important;
+    font-size: xx-large !important;
+}
+
+.nav-selected:hover {
+    text-decoration: line-through #cb0000 !important;
+}
+
+.nav-item > .active > a { 
+    background-color: line-through #cb0000 ; 
+}
+
+#topheader .navbar-nav li.active > a{
+    /* background-color: line-through #cb0000 !important;  */
+    background-color: #333;
+    font-size: 30px;
+}
