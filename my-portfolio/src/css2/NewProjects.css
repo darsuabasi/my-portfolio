@@ -10,13 +10,12 @@
 }
 
 .projectMain {
-    width: 100vw;
     height: 100vh;
     display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
-    overflow-y: scroll !important;
+    overflow-y: scroll;
     overflow-x: hidden;
     background-image: url('../assets/ProjectsBG4.png');
     background-size: cover;
@@ -25,88 +24,258 @@
 
 .subContain {
     display: grid;
-    margin-top: -1rem;
-}
-
-.fullCard {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    background-color: transparent;
-    align-items: center;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 5;
-    border: none;
+    margin-top: 5rem;
+    overflow: hidden;
+    width: auto;
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+    justify-items: stretch;
 }
 
 .sheCodes {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: 5;
-    margin-top: -4rem;
-    margin-bottom: 2rem;
-    font-variant: small-caps;
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+}
+
+.styleProj {
+    color: var(--myRed);
+    margin-top: 3%;
     font-style: italic;
-    font-weight: 900;
 }
 
-/* . */
-
-.projectPic {
-    border-radius: 1.5rem;
-}
-
-
-.projectName {
-    font-size: 26px;
+.styleProj:hover {
     text-decoration: line-through #ffffff;
 }
 
-.projectName, .projectInfo:hover {
-    color: var(--myRed);
-    font-variant: small-caps;
-    font-style: italic;
-    font-weight: 800;
-}
-
-.projectInfo {
-    color: var(--pureWhite);
-    font-variant: small-caps;
-    /* font-style: italic; */
-    font-weight: 800;
-    font-size: 18px;
-    text-align: start;
-}
-
-.projectInfo:hover {
-    color: var(--myRed);
-}
-
-
-.projectNext {
-    font-size: 16px;
-    color: var(--pureWhite);
-    font-variant: small-caps;
-    font-style: italic;
-    font-weight: 700;
-    text-align: start;
-    margin-bottom: 1rem;
-}
-
-.projectNext:hover {
-    color: var(--myRed)
-}
 
 .allTheCards {
-    margin-top: 0.5rem;
+    width: auto;
+    height: 32rem;
+    column-gap: 0.5rem;
+    overflow-y: scroll !important;
+    justify-content: space-evenly;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    padding: 10px;
+}
+
+.appScreenshots {
+    border-radius: 1rem;
+}
+
+.appScreenshots:hover {
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+    transition:transform 1.5s ease;
+    transform: scale(1.2);
+    flex-grow: 1;   
+}
+
+.projectName.top {
+    color: var(--myRed); 
+    margin-top: 7%;
+}
+
+.projectName.top:hover {
+    text-decoration: line-through #ffffff;
+}
+
+.codeDiv {
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
 }
 
 
+.appLink {
+    color: var(--myRed);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.appLink:hover {
+    text-decoration: line-through #ffffff !important;
+    color: var(--myRed);
+}
+
+.checkOutTheCode {
+    align-content: center;
+    text-align: center;
+    color: var(--myRed);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.checkOutTheCode:hover {
+    text-decoration: line-through #ffffff !important;
+    color: var(--myRed);
+}
+
+.bioForTheProject {
+    overflow-wrap: break-word;
+    width: 25rem;
+    color: var(--pureWhite);
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: italic;
+    text-align: start;
+}
+
+.bioForTheProject:hover {
+    color: var(--myRed);
+}
+
+.whatsNext {
+    overflow-wrap: break-word;
+    width: 25rem;
+    padding-top: 1.5%;
+    color: transparent;
+    text-decoration: line-through #cb0000;
+    font-variant: small-caps;
+    font-weight: 700; 
+    text-align: center;
+    font-style: italic;
+}
+
+.whatsNext:hover {
+    color: var(--pureWhite);
+    text-decoration: none;
+}
+
+.projectOne, .projectTwo, .projectThree {
+    margin-top: 1.5rem;
+}
 
 @media (min-width: 550px) and (min-height: 701px) {
     .projectMain {
-        background-size: cover;
-        
+        background-size: cover; 
+    }
+}
+
+@media (max-width: 390px) {
+    .bioForTheProject {
+        width: auto;
+        text-align: start !important;
+    }
+    
+    .whatsNext {
+        width: auto;
     }
 
+    .projectOne, .projectTwo, .projectThree {
+        width: auto;
+    }
+
+    .subContain {
+        width: auto;
+        margin-right: -0rem !important;
+        margin-left: 0.3rem !important;
+        padding: 0 !important;
+    }
+    
+    .allTheCards {
+        width: 18rem;
+        height: 40rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-right: -0.5rem !important;
+        justify-items: center;
+    }
+
+    .appScreenshots {
+        width: 270px !important;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .bioForTheProject {
+        width: 27rem;
+    }
+    
+    .whatsNext {
+        width: 27rem;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 27rem;
+    }
+
+    .sheCodes {
+        margin-top: -2rem;
+    }
+
+    .subContain {
+        width: 90rem;
+        margin-right: -0rem !important;
+        margin-left: 0rem !important;
+        padding: 0 !important;
+    }
+    
+    .allTheCards {
+        width: 90rem;
+        height: 40rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-right: 0rem !important;
+        justify-content: space-evenly;
+    }
+
+    .appScreenshots {
+        width: 400px !important;
+        height: 250px !important;
+    }
+}
+
+
+
+@media (min-width: 2100px) {
+    .bioForTheProject {
+        width: 30rem;
+    }
+    
+    .whatsNext {
+        width: 30rem;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 30rem;
+    }
+
+    .sheCodes {
+        margin-top: -4rem;
+    }
+
+    .subContain {
+        width: 120rem;
+        margin-right: -0rem !important;
+        margin-left: 0.3rem !important;
+        padding: 0 !important;
+        justify-content: space-evenly;
+
+    }
+    
+    .allTheCards {
+        width: 120rem;
+        height: 44rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-right: -0.5rem !important;
+        justify-content: space-evenly;
+    }
+
+    .appScreenshots {
+        width: 400px !important;
+        height: 250px !important;
+    }
 }
