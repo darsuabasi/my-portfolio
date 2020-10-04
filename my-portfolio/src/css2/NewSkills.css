@@ -1,0 +1,216 @@
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.skillsMain {
+    background-image: url('../assets/skillsBG7.png');
+    background-color: #f9b203;
+    background-repeat: none;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+}
+
+.styleSkills {
+    color: var(--myRed);
+    margin-left: 3rem;
+    margin-top: 6rem;
+    font-style: italic;
+    text-decoration: line-through var(--pureWhite);
+    flex-wrap: wrap;
+}
+
+.styleSkills:hover {
+    color: var(--pureWhite);
+    text-decoration: line-through var(--myRed);
+}
+
+.skillsDiv {
+    width: 80%;
+    height: 34rem;
+    padding: 0.5rem;
+    justify-content: center;
+    margin-left: 22rem;
+    margin-top: 4rem;
+    border-radius: 1.5rem;
+}
+
+
+.ThreeSkills {
+    width: 12rem;
+    height: 5rem;
+}
+
+.nodejsSkill {
+    width: 8rem;
+    height: 5rem;
+}
+
+.expressSkill {
+    width: 12rem;
+    height: 4rem;
+}
+
+.postmanSkill {
+    width: 10rem;
+    height: 7rem;
+}
+
+.bootstrapSkill {
+    width: 9rem;
+    height: 7rem;
+}
+
+.sassSkill {
+    width: 8rem;
+    height: 7rem;
+    background-color: transparent;
+    color: transparent;
+}
+
+.firebaseSkill {
+    width: 14rem;
+    height: 8rem;
+}
+
+.illustratorSkill {
+    width: 10rem;
+    height: 7rem;
+}
+
+.postgresqlSkill {
+    width: 12rem;
+    height: 8rem;
+}
+
+.gitSkill {
+    width: 10rem;
+    height: 5rem;
+}
+
+.reactSkill {
+    width: 8rem;
+    height: 6rem;
+}
+
+.reduxSkill {
+    width: 7rem;
+    height: 5rem;
+}
+
+.rowUno, .rowDos, .rowTres {
+    padding-bottom: 14px;
+}
+
+
+@media (max-width: 475px) {
+    .skillsMain {
+        background-repeat: no-repeat;
+        background-size: 2000px 1300px;
+        justify-content: center;
+    }
+
+    .styleSkills {
+        color: var(--myRed);
+        margin-bottom: 2rem;
+        font-size: 34px;
+    }
+
+    .skillsDiv {
+        width: 80%;
+        height: 26rem;
+        padding-left: 4rem;
+        justify-content: center;
+        margin-left: 2.5rem;
+        margin-top: -2rem;
+        border-radius: 1.5rem;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .rowUno, .rowDos, .rowTres {
+        padding-bottom: 20px !important;
+    }
+
+    .singleCol {
+        padding-bottom: 24px !important;
+    }
+}
+
+
+@media only screen and (max-width: 1349px) and (min-width: 476px) {
+    .skillsMain {
+        background-repeat: no-repeat;
+        background-size: 2000px 2300px;
+        justify-content: center;
+    }
+
+    .styleSkills {
+        color: var(--myRed);
+        margin-top: 10rem;
+        margin-bottom: 6rem;
+        font-size: 34px;
+    }
+
+    .skillsDiv {
+        width: auto;
+        height: 26rem;
+        padding-left: 4rem;
+        justify-content: center;
+        margin-left: 2.5rem;
+        margin-top: -10rem;
+        border-radius: 1.5rem;
+        overflow-y: scroll !important;
+        overflow-x: hidden !important;
+    }
+
+    .rowUno, .rowDos, .rowTres {
+        padding-bottom: 20px !important;
+    }
+
+    .singleCol {
+        padding-bottom: 24px !important;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+    .skillsMain {
+        background-repeat: no-repeat;
+        background-size: 2000px 1500px;
+    }
+}
+
+
+@media (min-width: 2001px) {
+    .skillsMain {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .styleSkills {
+        color: var(--myRed);
+        margin-left: 10rem;
+        margin-top: 14rem;
+    }
+
+    .skillsDiv {
+        width: 80%;
+        height: 30rem;
+        padding: 0.5rem;
+        justify-content: center;
+        margin-left: 38rem;
+        margin-top: 1rem;
+        border-radius: 1.5rem;
+    }
+   
+}
