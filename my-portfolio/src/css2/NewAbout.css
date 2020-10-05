@@ -7,7 +7,7 @@
     --myRed: #cb0000;
     --borderRed: #c42323;
     --pureWhite: #ffffff;
-  }
+}
 
 
 .aboutMainDiv {
@@ -30,11 +30,10 @@
     height: 34rem;
     overflow-x: hidden;
     overflow-y: scroll;
-    box-shadow: 5px 10px 5px 10px #cb0000;
+    box-shadow: 5px 10px 5px 10px var(--myRed);
     color: var(--myRed) !important;
     border-radius: 1rem;
     margin-top: 6rem;
-    /* margin-bottom: 1.5rem; */
 }
 
 .welcomeToMyPortal {
@@ -105,7 +104,7 @@
 
     .aboutSubMain2 {
         height: 32rem;
-        box-shadow: 3px 5px 3px 5px #cb0000; 
+        box-shadow: 3px 5px 3px 5px var(--myRed); 
     }
 }
 
@@ -122,7 +121,7 @@
 
     .aboutSubMain2 {
         height: 28rem;
-        box-shadow: 3px 5px 3px 5px #cb0000; 
+        box-shadow: 3px 5px 3px 5px var(--myRed); 
     }
 }
 
@@ -139,7 +138,7 @@
 
     .aboutSubMain2 {
         height: 38rem;
-        box-shadow: 3px 5px 3px 5px #cb0000;  
+        box-shadow: 3px 5px 3px 5px var(--myRed);  
     }
 }
 
@@ -151,8 +150,6 @@
     }
 
     .picOfMe2 {
-        /* width: 285px !important;
-        height: 200px !important; */
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -162,7 +159,7 @@
     .aboutSubMain2 {
         margin-top: 1.5rem;
         height: 16rem;
-        box-shadow: 3px 5px 3px 5px #cb0000;  
+        box-shadow: 3px 5px 3px 5px var(--myRed);  
     }
 }
 
@@ -172,7 +169,7 @@
     }
 
     .aboutSubMain2 {
-        box-shadow: 5px 10px 5px 10px #cb0000;  
+        box-shadow: 5px 10px 5px 10px var(--myRed);  
     }
 
     .aboutSubMain2 {
