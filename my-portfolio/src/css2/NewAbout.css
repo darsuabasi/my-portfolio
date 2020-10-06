@@ -7,8 +7,7 @@
     --myRed: #cb0000;
     --borderRed: #c42323;
     --pureWhite: #ffffff;
-}
-
+  }
 
 .aboutMainDiv {
     width: 100%;
@@ -195,7 +194,6 @@
         width: 650px !important;
         display: block;
     }
-
 }
 
 

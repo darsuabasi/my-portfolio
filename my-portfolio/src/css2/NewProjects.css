@@ -41,12 +41,14 @@
 
 .styleProj {
     color: var(--myRed);
+    text-decoration: line-through var(--pureWhite);
     margin-top: 3%;
     font-style: italic;
 }
 
 .styleProj:hover {
-    text-decoration: line-through #ffffff;
+    color: var(--pureWhite);
+    text-decoration: line-through var(--myRed);
 }
 
 
