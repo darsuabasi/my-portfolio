@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
 }
@@ -125,10 +125,10 @@
 .whatsNext:hover {
     color: #ffffff;
     text-decoration: none;
-}
+} */
 
 /* ---------------------------------GALAXY FOLD Responsiveness--------------------------------*/
-@media (max-width: 280px) {
+/* @media (max-width: 280px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1100px !important;
@@ -169,10 +169,10 @@
         width: 16rem !important;
         font-size: 20px !important;
     }
-}
+} */
 
 /* ------------------------------------ iphoneX 5/SE 320 by 568 --------------------------------------- */
-@media (min-width: 320px) and (max-height: 580px) {
+/* @media (min-width: 320px) and (max-height: 580px) {
     .ProjectMain {
         background-repeat: no-repeat !important;
         background-size: 1100px 900px !important;
@@ -222,10 +222,10 @@
         font-size: 22px !important;
     }
    
-}
+} */
 
 /* -------------------------------------------glaxay s5 / moto g4 360 by 640 -------------------------------------------------- */
-@media (min-width: 360px) and (max-height: 650px) {
+/* @media (min-width: 360px) and (max-height: 650px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1100px !important;
@@ -281,10 +281,10 @@
     .whatsNext {
         font-size: 22px !important;
     }
-}
+} */
 
 /* -------------------------------------------iphone/// 6, 7, 8-------------------------------------------------- */
-@media (min-width: 375px) and (max-height: 667px) {
+/* @media (min-width: 375px) and (max-height: 667px) {
     * {
         padding: 0;
         margin: 0;
@@ -346,11 +346,10 @@
     .whatsNext {
         font-size: 22px !important;
     }
-}
-
+} */
 
 /* -------------------------------------------iphoneX 375 by 812 -------------------------------------------------- */
-@media (min-width: 375px) and (height: 812px) {
+/* @media (min-width: 375px) and (height: 812px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1300px !important;
@@ -407,10 +406,10 @@
     .whatsNext {
         font-size: 22px !important;
     }
-}
+} */
 
 /* ---------------------iphoneX 6/7/8 PLUS [414 by 736] + PIXEL2[411 by 731]  + PIXEL2XL [411 by 823]---------------------- */
-@media (min-width: 400px) and (max-height: 830px) {
+/* @media (min-width: 400px) and (max-height: 830px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1100px 1200px !important;
@@ -463,11 +462,11 @@
     .codeDiv {
         width: 22rem !important
     }
-}
+} */
 
 
 /* ------------------------------------------------------ iPad ----------------------------------------- */
-@media (min-width: 768px) and (min-height: 1024px) {
+/* @media (min-width: 768px) and (min-height: 1024px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1200px 1200px !important;
@@ -527,10 +526,10 @@
     .codeDiv {
         width: 29rem !important;
     }
-}
+} */
 
  /* ----------------------------------------- IPAD LANDSCAPE VIEW- Responsiveness ----------------------*/
- @media (min-width: 1024px) and (max-height: 850px) {
+ /* @media (min-width: 1024px) and (max-height: 850px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1700px 2100px !important;
@@ -603,10 +602,10 @@
         width: 45rem !important;
         font-size: 26px !important;
     }
-}
+} */
 
 /* ------------------------------------------iPad PRO RESPONSIVENESS REG LAYOUT 1366 height---------------------- */
-@media (min-width: 1024px) and (min-height: 1365px) {
+/* @media (min-width: 1024px) and (min-height: 1365px) {
     .ProjectMain {
         background-repeat: no-repeat;
         background-size: 1700px 2100px !important;
@@ -672,10 +671,10 @@
         width: 45rem !important;
         font-size: 26px !important;
     }
-}
+} */
 
 /* ---------------------------------------------- MacBookAir Responsiveness1 1280 by 800 ----------------------------------*/
-@media (min-width: 1280px) and (max-height: 801px) {
+/* @media (min-width: 1280px) and (max-height: 801px) {
 
     * {
         padding: 0;
@@ -773,12 +772,12 @@
         justify-content: center !important;
         margin-left: 3.5rem !important;
     }
-}
+} */
 
 
 
 /* ---------------------------------------DESKTOP TOUCH WITH 950 HEIGHT Responsiveness ----------------------*/
-@media (min-width: 1280px) and (min-height: 940px) {
+/* @media (min-width: 1280px) and (min-height: 940px) {
     .ProjectMain {
         background-size: 1500px 1700px !important;
         overflow: hidden !important;
@@ -802,13 +801,11 @@
         margin-top: -3rem !important;
     }
 
-}
-
-
+} */
 
 
 /* ------------------------------------------iPad PRO RESPONSIVENESS LANDSCAPE LAYOUT 1024 height---------------------- */
-@media (min-width: 1365px) and (min-height: 1023px) {
+/* @media (min-width: 1365px) and (min-height: 1023px) {
     .ProjectMain {
         background-size: 1500px 1200px !important;
         background-repeat: no-repeat;
@@ -882,11 +879,11 @@
         width: 45rem !important;
         font-size: 22px !important;
     }
-}
+} */
 
 
 /* ---------------------------------------------- MacBookAir ResponsivenessMYMAC REGULAR----------------------------------*/
-@media (min-width: 1440px) and (max-height: 740px) {
+/* @media (min-width: 1440px) and (max-height: 740px) {
     .ProjectMain {
         background-size: 1500px 1000px !important;
         background-repeat: no-repeat;
@@ -938,10 +935,10 @@
         transform: scale(1.05) !important;
     }
 }
-
+ */
 
 /* ---------------------------------------------- MacBookAir ResponsivenessMYMAC EXPANDED----------------------------------*/
-@media (min-width: 1440px) and (min-height: 750px) {
+/* @media (min-width: 1440px) and (min-height: 750px) {
     .ProjectMain {
         background-size: 1500px 1000px !important;
         background-repeat: no-repeat !important;
@@ -993,11 +990,11 @@
     .appScreenshots:hover {
         transform: scale(1.05) !important;
     }
-}
+} */
 
 
 /* ---------------------------------------------------DESKTOP WITH HIGHDPI Responsiveness 1440 by 900--------------------------------------------------*/
-@media (min-width: 1440px) and (min-height: 800px) {
+/* @media (min-width: 1440px) and (min-height: 800px) {
 
     .ProjectMain {
         background-size: 1500px 1000px !important;
@@ -1039,4 +1036,4 @@
         position: sticky !important;
         width: 80rem !important;
     }
-}
+} */

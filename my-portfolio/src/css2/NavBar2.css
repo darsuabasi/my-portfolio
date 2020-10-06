@@ -13,6 +13,9 @@
 .nav-selected {
     color: var(--pureWhite) !important;
     font-size: 24px !important;
+    font-weight: 800;
+    font-style: italic;
+    font-variant: small-caps;
 }
 
 .nav-selected:active {
@@ -29,7 +32,6 @@
 }
 
 #topheader .navbar-nav li.active > a{
-    /* background-color: line-through #cb0000 !important;  */
     background-color: #333;
     font-size: 30px;
 }

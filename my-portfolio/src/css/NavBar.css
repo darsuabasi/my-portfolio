@@ -156,7 +156,7 @@ a.nav-selected:hover {
 
 
 
-@media (max-width: 330px) {
+/* @media (max-width: 330px) {
 
     *{
         padding: 0;
@@ -246,7 +246,7 @@ a.nav-selected:hover {
 
 
     
-}
+} */
 
 
 
@@ -260,7 +260,7 @@ a.nav-selected:hover {
 
 
 /* ----------------------------------iphone 5E---------------------------- */
-@media (max-width: 290px) and (max-height: 660px) {
+/* @media (max-width: 290px) and (max-height: 660px) {
 
     *{
         padding: 0;
@@ -345,7 +345,7 @@ a.nav-selected:hover {
         display: flex;
         position: relative;
     }
-}
+} */
 
 
 
@@ -359,7 +359,7 @@ a.nav-selected:hover {
 
 
 /* ----------------------------------iphone 5E---------------------------- */
-@media (max-width: 320px) and (max-height: 570px) {
+/* @media (max-width: 320px) and (max-height: 570px) {
 
     *{
         padding: 0;
@@ -444,7 +444,7 @@ a.nav-selected:hover {
         display: flex;
         position: relative;
     }
-}
+} */
 
 
 
@@ -458,7 +458,7 @@ a.nav-selected:hover {
 
 
 /* <!---------------------------------------------------------------- iPhone 6/7/8 PLus--------------------------------------------------------> */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 
     *{
         padding: 0;
@@ -545,7 +545,7 @@ a.nav-selected:hover {
         position: relative;
     }
 
-}
+} */
 
 
 
@@ -554,7 +554,7 @@ a.nav-selected:hover {
 
 
 /* --------------------------------------------------------------------- iPad ------------------------------------------------------------------ */
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
 
     * {
         box-sizing: border-box;
@@ -613,7 +613,7 @@ a.nav-selected:hover {
         background-color:  #cb0000 !important;
     }
   
-}
+} */
 
 
 
