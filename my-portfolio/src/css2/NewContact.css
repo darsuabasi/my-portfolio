@@ -1,0 +1,26 @@
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+}
+
+.contactContainer {
+    background-image: url('../assets/contactBG2.png');
+    background-size: 100%;
+    background-color: #f9b203;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto
+}
+
+.rowWithCards {
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 10rem
+}
+
+.rowWithSocials {
+    /* margin-top: 5rem; */
+}
