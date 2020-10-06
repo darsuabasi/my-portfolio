@@ -1,118 +1,78 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+import CardDeck from 'react-bootstrap/CardDeck';
 import ListGroup from 'react-bootstrap/ListGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import Typing from 'react-typing-animation';
-import twitter from '../assets/twitter.svg';
-import instagram from '../assets/instagram.svg';
-import linkedin from '../assets/linkedin.svg';
-import github from '../assets/github.svg';
-import resume from '../resume/UduakabasiAbasiurua_Resume.pdf'
+import resume from '../resume/UduakabasiAbasiurua_Resume.pdf';
+import Footer from './Footer';
 import '../css2/NewContact.css';
 
 const NewContact = () => {
     return (
         <Container fluid className="contactContainer">
-            <div className="contactMainDiv">
-                <Row className="rowWithCards">
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Text>
-                                    If you want to chat about less trivial things like skincare, 
-                                    anime or maybe get some adivce, follow me on  
-                                    <a className="linksInContact" href="https://www.instagram.com/darsu.chats/"><h3>Instagram</h3></a>
-                                    and send me a DM.
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-                            <Card.Body>
-                                <Card.Title>Services Provided</Card.Title>
-                                <Card.Text>
-                                    Feel free to reach out and I'll get back to you as soon as possble.
-                                </Card.Text>
-                            </Card.Body>
-                            <ListGroup className="list-group-flush">
-                                <ListGroupItem>Fullstack Web Application Build</ListGroupItem>
-                                <ListGroupItem>Design Consultations</ListGroupItem>
-                                <ListGroupItem>UX/UI Design</ListGroupItem>
-                                <ListGroupItem>Photography</ListGroupItem>
-                                <ListGroupItem>Logos</ListGroupItem>
-                            </ListGroup>
-                            <Card.Body>
-                                <Card.Link href={resume} target="_blank">Download Resume</Card.Link>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                    <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Body>
-                                <Card.Text>
-                                    Maybe you want to check out the random thoughts I'm having? Check me out 
-                                    on <a className="linksInContact" href="https://twitter.com/darsucodes"> <h3>Twitter</h3></a> Happy Tweeting!
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-
-
-                <Row xs={12} sm={12} md={12} lg={12} lg={12} className="rowWithSocials">
-                    <Col> 
-                        <div className="mySocials">
-                            {/* <div className="socialOptionUL2"> */}
-                                {/* <div lassName="socialOption"> */}
-                                    <a href="https://github.com/darsuabasi">
-                                    <img id="insta" className="logos4contact" src={github} alt="github" />
-                                    </a>
-                                {/* </div> */}
-
-                                {/* <div className="socialOption"> */}
-                                    <a href="https://twitter.com/darsucodes">
-                                    <img id="tweets" className="logos4contact" src={twitter} alt="twitter" />
-                                    </a>
-                                {/* </div> */}
-
-                                {/* <div lassName="socialOption"> */}
-                                    <a href="https://www.instagram.com/darsu.chats/">
-                                    <img id="insta" className="logos4contact" src={instagram} alt="instagram" />
-                                    </a>
-                                {/* </div> */}
-
-                                {/* <div lassName="socialOption"> */}
-                                    <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/">
-                                    <img id="linkd" className="logos4contact" src={linkedin} alt="linkedin" />
-                                    </a>
-                                {/* </div> */}
-                                
-                            </div>
-                        {/* </div> */}
-                    {/* <Card>
-                        <Card.Header>Featured</Card.Header>
-                        <Card.Body>
-                            <Card.Title>Special title treatment</Card.Title>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
-                        </Card.Body>
-                    </Card> */}
-                    </Col>
-                </Row>
-
+            <div className="div4Intro">
+                <Typing>
+                    <h1 className="styleContact"> 
+                        Need My Skills? 
+                        <div> 
+                            <h1 className="styleContact2"> 
+                                Want To Chat? </h1>
+                                {/* <div> 
+                                    file:///Users/dylanabasiurua/Downloads/Resume_Uduakabasi%20Abasiurua.pdf
+                                    <a href="https://docs.google.com/document/d/18I_rL7ZO-yweUZFtvAM87RNCOFIO6Wvufd5D4D-_aek/edit?usp=sharing"><h2 className="styleResume">My Resume!</h2></a>
+                                </div> */}
+                        </div>
+                    </h1>
+                </Typing>
             </div>
-        </Container>
 
+            <div className="contactMainDiv">
+                <CardDeck className="allTheCardsContact">
+                    <Card style={{ width: '18rem', height: '18rem' }} className="lessTrivialCard">
+                        <Card.Body>
+                            <Card.Text style={{textAlign: 'center'}}>
+                                If you want to chat about less trivial things like skincare, 
+                                anime or maybe get some adivce, follow me on   
+                                <a className="linksInContact" href="https://www.instagram.com/darsu.chats/"> Instagram </a>
+                                and send me a DM.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                    
+                    <Card style={{ width: '22rem', height: '30rem' }} className="bookMeCard">
+                        <Card.Body>
+                            <Card.Title className="servicesTitle">Services Provided</Card.Title>
+                        </Card.Body>
+                        <ListGroup className="list-group-flush">
+                            <ListGroupItem className="serviceItem">Fullstack Web Apps</ListGroupItem>
+                            <ListGroupItem className="serviceItem">Design Consultations</ListGroupItem>
+                            <ListGroupItem className="serviceItem">UX/UI Design</ListGroupItem>
+                            <ListGroupItem className="serviceItem">Photography</ListGroupItem>
+                            <ListGroupItem className="serviceItem">Logos</ListGroupItem>
+                        </ListGroup>
+                        <Card.Text style={{textAlign: 'center'}}>
+                            Feel free to reach out and I'll get back to you as soon as possble.
+                        </Card.Text>
+                        <Card.Body className="resumeBody">
+                            <Card.Link className="linksInContact" href="mailto:uduakabasiabasiurua@pursuit.org"> Email</Card.Link>
+                            <Card.Link className="linksInContact" href={resume} target="_blank">Resume</Card.Link>
+                        </Card.Body>
+                    </Card>
+                    
+                    <Card style={{ width: '18rem', height: '18rem' }} className="randomOnTwitterCard">
+                        <Card.Body>
+                            <Card.Text style={{textAlign: 'center'}}>
+                                Maybe you want to check out the random thoughts I'm having? Check me out 
+                                on <a className="linksInContact" href="https://twitter.com/darsucodes"> Twitter</a>. Happy Tweeting!
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </CardDeck>
+            </div>
+            <Footer className="importedFooter"/>
+        </Container>
     )
 }
 

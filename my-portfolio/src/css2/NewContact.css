@@ -2,6 +2,10 @@
     --myRed: #cb0000;
     --borderRed: #c42323;
     --pureWhite: #ffffff;
+    --shadowColor: rgba(0, 0, 0, 0.253);
+    --primaryOrange: #e2540c;
+    --secondaryOrange: #e86f23;
+
 }
 
 .contactContainer {
@@ -10,17 +14,182 @@
     background-color: #f9b203;
     height: 100vh;
     display: grid;
-    overflow: hidden;
+    overflow-y: scroll;
     justify-content: center;
-    margin: auto
 }
 
-.rowWithCards {
-    align-items: center;
-    margin-top: 8rem;
-    margin-bottom: 10rem
+.div4Intro {
+    width: 10rem !important;
+    height: 7rem !important;
+    margin-top: 6rem;
+    margin-bottom: 1.5rem;
 }
 
-.rowWithSocials {
-    /* margin-top: 5rem; */
+.styleContact {
+    font-variant: small-caps;
+    color: #cb0000;
+    margin-left: -5rem;
+    font-style: italic;
+    position: static;
+    font-size: 24px !important;
+}
+
+.styleContact2 {
+    margin-left: 4rem;
+    font-size: 24px !important;
+}
+
+.lessTrivialCard, .bookMeCard, .randomOnTwitterCard {
+    background-color: var(--myRed);
+    border: 5px solid var(--pureWhite);
+    color: var(--pureWhite);
+    font-variant: small-caps;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.servicesTitle {
+    font-weight: 900;
+    font-size: 26px !important;
+}
+
+.serviceItem {
+    font-size: 16px !important;
+    background-color: var(--myRed);
+    align-self: center !important;
+}
+
+.resumeBody {
+    align-self: center !important;
+    margin-top: -1.5rem;
+    word-wrap: break-word !important;
+    flex-wrap: wrap !important;
+    /* flex-wrap: wrap; */
+}
+
+.linksInContact {
+    color: var(--pureWhite);
+    font-size: 28px !important;
+    font-weight: bold !important;
+}
+
+.linksInContact:hover {
+    text-decoration: line-through var(--pureWhite) !important;
+    color: var(--pureWhite) !important;
+}
+
+.allTheCardsContact {
+    width: auto;
+    height: 34rem;
+    column-gap: 0.5rem;
+    overflow-y: scroll !important;
+    justify-content: space-evenly;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    padding: 10px;
+    margin-top: -8rem;
+}
+
+.bookMeCard {
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactContainer {
+        background-size: 1000px 1500px;
+        background-repeat: no-repeat !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div4Intro {
+        margin-left: 45%;
+    }
+
+    .lessTrivialCard, .bookMeCard, .randomOnTwitterCard {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-items: center;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .randomOnTwitterCard {
+        margin-bottom: 2rem !important
+    }
+
+    .allTheCardsContact {
+        height: 24rem;
+    }
+
+    .resumeBody {
+        margin-bottom: 1.5rem;
+    }
+
+    .div4Intro {
+        margin-top: -2.5rem;
+    }
+
+    .contactMainDiv {
+        margin-top: -10rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+    .contactContainer {
+        background-size: 1100px 1200px;
+        background-repeat: no-repeat !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .div4Intro {
+        margin-left: 45%;
+    }
+
+    .lessTrivialCard, .bookMeCard, .randomOnTwitterCard {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        align-items: center;
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .randomOnTwitterCard {
+        margin-bottom: 2rem !important
+    }
+
+    .allTheCardsContact {
+        height: 24rem;
+    }
+
+    .resumeBody {
+        margin-bottom: 1.5rem;
+    }
+
+    .div4Intro {
+        margin-top: -2.5rem;
+    }
+
+    .contactMainDiv {
+        margin-top: -10rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .contactContainer {
+        background-repeat: no-repeat !important;
+        background-size: 2000px 1200px !important;
+    }
+}
+
+@media (min-width: 2000px) {
+    .contactContainer {
+        background-repeat: no-repeat !important;
+        background-size: 3400px 1500px !important;
+    }
 }

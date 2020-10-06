@@ -1,0 +1,25 @@
+.importedFooter {
+    position: absolute;
+    background-color: sienna;
+}
+
+.logos4contact {
+    box-shadow: var(--secondaryOrange) 2px 2px 4px 4px;
+    border-radius: 0.1rem;
+    padding: 1px;
+}
+
+.logoOne {
+    box-shadow: var(--pureWhite) 2px 2px 5px 5px !important;
+    border-radius: 1rem;
+    padding: 1px;
+}
+
+.mySocials {
+    list-style-type: none !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 2% !important;
+    background-color: transparent;
+    width: 200rem;
+}
