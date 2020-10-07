@@ -152,16 +152,36 @@
     margin-top: 1.5rem;
 }
 
-@media (min-width: 550px) and (min-height: 701px) {
-    .projectMain {
-        background-size: cover; 
+
+@media only screen and (width: 320px) and (height: 568px) { 
+    .sheCodes {
+        margin-top: 40rem !important;
+    }
+
+    .styleProj {
+        color: var(--myRed);
+        text-decoration: line-through var(--pureWhite);
+        margin-top: 30% !important;
+        font-style: italic;
     }
 }
 
-@media (max-width: 390px) {
+@media only screen and (max-width: 390px) {
+    /* .projectMain {
+        /* overflow-y: hidden !important; */
+    /* } */
+
+
     .bioForTheProject {
         width: auto;
         text-align: start !important;
+    }
+
+    .sheCodes {
+        grid-row-start: 2;
+        grid-row-end: 5;
+        margin-top: 13rem !important;
+        margin-bottom: 2rem !important;
     }
     
     .whatsNext {
@@ -181,17 +201,23 @@
     
     .allTheCards {
         width: 18rem;
-        height: 40rem;
+        height: 38rem;
         column-gap: 0.5rem;
         overflow-y: scroll !important;
         justify-content: center;
         padding: 0px !important;
-        margin-right: -0.5rem !important;
+        margin-left: 0.4rem !important;
         justify-items: center;
     }
 
     .appScreenshots {
         width: 270px !important;
+    }
+}
+
+@media (min-width: 550px) and (min-height: 701px) {
+    .projectMain {
+        background-size: cover; 
     }
 }
 

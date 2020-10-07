@@ -194,6 +194,13 @@
 
 }
 
+@media only screen and (max-width: 760px) and (min-height: 500px) {
+    .majorDiv {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 768px) {
     .majorDiv {
         background-repeat: no-repeat !important;
@@ -297,20 +304,20 @@
 
     .btn-div {
         display: flex;
-        margin-top: 20rem !important;
+        margin-top: 16rem !important;
         justify-content: space-between !important;
         width: 28rem !important;
     }
 
     .enterWorldBtn {
-        background-image: linear-gradient(to left, #ffffff, #959392, #000000) !important;
+        /* background-image: linear-gradient(to left, #ffffff, #959392, #000000) !important; */
         background-size: 200% !important;
         margin-left: 1rem !important;
         width: 6rem !important;
     }
     
     .enterContactBtn {
-        background-image: linear-gradient(to left, #ffffff, #959392, #000000) !important;
+        /* background-image: linear-gradient(to left, #ffffff, #959392, #000000) !important; */
         background-size: 200% !important;
         width: 7rem !important;
         align-self: flex-end !important;

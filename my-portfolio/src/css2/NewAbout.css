@@ -10,7 +10,7 @@
   }
 
 .aboutMainDiv {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     z-index: 100;
     background-image: url('../assets/aboutNewBG.png');
@@ -20,19 +20,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden !important;
+    overflow-y: hidden !important;
+}
+
+.aboutMeParagraphContainer {
+    margin-top: 14rem;
+    height: 60rem !important;
 }
 
 .aboutSubMain2 {
     text-align: center;
     width: auto;
-    height: 34rem;
+    height: 32rem !important;
     overflow-x: hidden;
     overflow-y: scroll;
     box-shadow: 5px 10px 5px 10px var(--myRed);
     color: var(--myRed) !important;
     border-radius: 1rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 
 .welcomeToMyPortal {
@@ -76,17 +81,6 @@
 
 .aboutmepara2:hover {
     color: var(--pureWhite) !important;
-}
-
-.navbar-collapse {
-    position: relative;
-    /* display: none; */
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-.navbar-toggler, .navbar-toggler-icon {
-    color: var(--pureWhite)
 }
 
 
@@ -149,16 +143,16 @@
     }
 
     .picOfMe2 {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         width: 60%;
     }
 
     .aboutSubMain2 {
-        margin-top: 1.5rem;
-        height: 16rem;
-        box-shadow: 3px 5px 3px 5px var(--myRed);  
+        margin-top: 1.5rem !important;
+        height: 16rem !important;
+        box-shadow: 3px 5px 3px 5px var(--myRed) !important;  
     }
 }
 
