@@ -63,8 +63,8 @@
     }
     
     .navbar-collapse {
-        display: block;
-        display: none;
+        /* display: block; */
+        /* display: none !important; */
         /* position: absolute; */
         z-index: 1;
         /* right: -45px; */
@@ -85,8 +85,7 @@
     }
     
     .navbar-toggler-icon {
-        background-image: url('../assets/offcialMenuBuger.svg');
-        /* color:transparent; */
+        background-image: url('https://img.icons8.com/ios-filled/24/ffffff/menu.png');
         background-size: 2rem;
         border-radius: 0.5em;
         width: 3rem;
@@ -124,6 +123,7 @@
         text-decoration: none;
         border-radius: 1px;
         color: var(--myRed);
+        display: block !important;
         /* float: right !important; */
     }
     
