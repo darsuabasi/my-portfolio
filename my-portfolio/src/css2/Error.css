@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+.errorHandlingMain {
+    background-image: url('../assets//errorPage.jpg');
+    background-size: cover !important;
+    height: 100vh !important;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+}
+
+.subOneError {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 44rem !important;
+    
+}
+
+.subDivForError {
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem !important;
+    margin-top: 1rem;
+
+}
+
+.message {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.typingBody {
+
+    width: 40rem;
+    justify-content: center;
+    align-items: center;
+    color: teal;
+    font-size: 20px !important;
+}
+
