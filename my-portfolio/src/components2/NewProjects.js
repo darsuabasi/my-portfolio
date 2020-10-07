@@ -56,11 +56,11 @@ const NewProject = () => {
                     </Card> */}
 
                     <div className="projectOne">
-                  <img  className="appScreenshots" alt="zoovioApp" href="https://zoovio.netlify.app/" style={{width:"350px", height:"192px"}} src={zoovioApp}/>
+                  <img  className="appScreenshots" alt="zoovioApp" href="https://zoovio.netlify.app/" target="_blank" style={{width:"350px", height:"192px"}} src={zoovioApp}/>
                   <h2 className="projectName top"> ZooVio</h2>
                     <div className="codeDiv">
-                      <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets! <span role="img" alt="smile emoji"> 😁 </span> </a>
-                      <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio">    Check out the code.</a>
+                      <a className="appLink" href="https://zoovio.netlify.app/" target="_blank">Keep Track of Your Pets! <span role="img" alt="smile emoji"> 😁 </span> </a>
+                      <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio" target="_blank">    Check out the code.</a>
                     </div>
                   <p className="bioForTheProject"> 
                   Fullstack React web app where users can log in using Google Firebase, create and manage tasks 
@@ -107,7 +107,7 @@ const NewProject = () => {
                   <img className="appScreenshots" alt="allAboutTheGreenApp" style={{width:"350px", height:"192px"}} src={aatgApp}/>
                   <h2 className="projectName top"> All About the Green </h2>
                   <div className="codeDiv"> 
-                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/AllAboutTheGreen"> Check out the code.</a>
+                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/AllAboutTheGreen" target="_blank"> Check out the code.</a>
                   </div>
                   <p className="bioForTheProject">
                   Fullstack React app coded for Pursuit's 48 hour Hackathon, sponsored by CodeAcademy.
@@ -149,8 +149,8 @@ const NewProject = () => {
                   <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2}/>
                   <h2 className="projectName top"> Pinterest Clone</h2>
                   <div className="codeDiv">
-                    <a className="appLink" href="https://mock-trest.netlify.app/"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
-                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest">Check out the code.</a>
+                    <a className="appLink" href="https://mock-trest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
+                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest" target="_blank">Check out the code.</a>
                   </div>
                   <p className="bioForTheProject">
                   Fullstack React app. Users can signup/login through Google Firebase, create pins and boards with images.

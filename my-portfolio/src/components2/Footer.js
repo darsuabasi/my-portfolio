@@ -14,25 +14,25 @@ const Footer = () => {
         {/* <div className="socialOptionUL2"> */}
 
             {/* <div lassName="socialOption"> */}
-                <a href="https://www.instagram.com/darsu.chats/">
+                <a href="https://www.instagram.com/darsu.chats/" target="_blank">
                 <img id="insta" className="logos4contact logoOne" src={instagram} alt="instagram" />
                 </a>
             {/* </div> */}
 
             {/* <div lassName="socialOption"> */}
-                <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/">
+                <a href="https://www.linkedin.com/in/uduakabasi-abasiurua-8ab113121/" target="_blank">
                 <img id="linkd" className="logos4contact logoTwo" src={linkedin} alt="linkedin" />
                 </a>
             {/* </div> */}
 
             {/* <div lassName="socialOption"> */}
-                <a href="https://github.com/darsuabasi">
+                <a href="https://github.com/darsuabasi" target="_blank">
                 <img id="insta" className="logos4contact logoThree" src={github} alt="github" />
                 </a>
             {/* </div> */}
             
             {/* <div className="socialOption"> */}
-                <a href="https://twitter.com/darsucodes">
+                <a href="https://twitter.com/darsucodes" target="_blank">
                 <img id="tweets" className="logos4contact logoFour" src={twitter} alt="twitter" />
                 </a>
             {/* </div> */}

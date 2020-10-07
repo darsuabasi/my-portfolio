@@ -35,7 +35,7 @@ const NewContact = () => {
                             <Card.Text style={{textAlign: 'center'}}>
                                 If you want to chat about less trivial things like skincare, 
                                 anime or maybe get some adivce, follow me on   
-                                <a className="linksInContact" href="https://www.instagram.com/darsu.chats/"> Instagram </a>
+                                <a className="linksInContact" href="https://www.instagram.com/darsu.chats/" target="_blank"> Instagram </a>
                                 and send me a DM.
                             </Card.Text>
                         </Card.Body>
@@ -65,7 +65,7 @@ const NewContact = () => {
                         <Card.Body>
                             <Card.Text style={{textAlign: 'center'}}>
                                 Maybe you want to check out the random thoughts I'm having? Check me out 
-                                on <a className="linksInContact" href="https://twitter.com/darsucodes"> Twitter</a>. Happy Tweeting!
+                                on <a className="linksInContact" href="https://twitter.com/darsucodes" target="_blank"> Twitter</a>. Happy Tweeting!
                             </Card.Text>
                         </Card.Body>
                     </Card>
