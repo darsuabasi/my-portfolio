@@ -180,6 +180,13 @@
     }
 }
 
+@media only screen and (min-width: 1001px) {
+    .contactContainer {
+        background-repeat: no-repeat !important;
+        background-size: 2000px 1900px !important;
+    }
+}
+
 @media (min-width: 1500px) {
     .contactContainer {
         background-repeat: no-repeat !important;
