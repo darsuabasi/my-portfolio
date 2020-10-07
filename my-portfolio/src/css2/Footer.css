@@ -1,10 +1,20 @@
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+    --primaryYellow: #f9b203;
+    --secYellow: #fabf09;
+    --shadowColor: rgba(0, 0, 0, 0.253);
+    --primaryOrange: #e2540c;
+    --secondaryOrange: #e86f23;
+  }
+
 .importedFooter {
     position: absolute;
-    background-color: sienna;
 }
 
 .logos4contact {
-    box-shadow: var(--secondaryOrange) 2px 2px 4px 4px;
+    box-shadow: var(--shadowColor) 2px 2px 2px 2px;
     border-radius: 0.1rem;
     padding: 1px;
 }
