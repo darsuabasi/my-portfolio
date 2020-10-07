@@ -5,7 +5,7 @@ import "../css2/NavBar2.css";
 
 const NavBar2 = () => {
   return (
-    <nav class="topHeader" className="navbar navbar-expand-lg  portNav fixed-top">
+    <nav class="topHeader" className="navbar navbar-expand-lg  portNav fixed-top navbarMain">
       
       <button
         className="navbar-toggler"
