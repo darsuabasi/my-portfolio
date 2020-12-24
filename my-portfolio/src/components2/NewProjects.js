@@ -13,7 +13,7 @@ import zoovioApp from '../assets/zoovioApp.png';
 // import cloutApp from '../assets/cloutApp.png';
 import aatgApp from '../assets/aatgApp.png';
 // import pinterestApp from '../assets/pinterestApp.jpeg';
-import pinterestApp2 from '../assets/pinterestApp2.jpeg';
+import pinterestApp2 from '../assets/pinterestApp2.png';
 // import letsgoApp from '../assets/letsgoApp.png';
 import { Link } from 'react-router-dom'
 
@@ -33,6 +33,26 @@ const NewProject = () => {
             </Col>
             <Col>
                 <CardDeck sm={4} className="allTheCards"> 
+
+                <div className="projectThree">
+                  <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2}/>
+                  <h2 className="projectName top"> Lifetrest</h2>
+                  <div className="codeDiv">
+                    <a className="appLink" href="https://lifetrest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
+                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest" target="_blank">Check out the code.</a>
+                  </div>
+                  <p className="bioForTheProject">
+                  Fullstack React app. Users can signup/login through Google Firebase, create pins and boards with images.
+                  Users can view their boards and pins on their profile. New pins can aslo be added to previously created boards.
+                  Boards can be deleted which will in turn remove all pins in that board. Modal is utilized so that images are the focus.  
+                  </p>
+                  <p className="whatsNext">
+                  What's Next: 
+                  The ability to delete pins.
+                  {/* Users will be able to search pins by hashtag. */}
+                  The ability to like pins which will then display in a generated "Likes" board.
+                  </p>
+                </div>
                     {/* <Card className="fullCard" style={{height: '30rem', width: '24rem'}}>
                         <Card.Img className="projectPic" variant="top" alt="zoovioApp" style={{ width:"350px", height:"200px"}} src={zoovioApp} />
                         <Card.Body>
@@ -145,25 +165,6 @@ const NewProject = () => {
                         </Card.Body>
                     </Card> */}
 
-                    <div className="projectThree">
-                  <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2}/>
-                  <h2 className="projectName top"> Pinterest Clone</h2>
-                  <div className="codeDiv">
-                    <a className="appLink" href="https://lifetrest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
-                    <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest" target="_blank">Check out the code.</a>
-                  </div>
-                  <p className="bioForTheProject">
-                  Fullstack React app. Users can signup/login through Google Firebase, create pins and boards with images.
-                  Users can view their boards and pins on their profile. New pins can aslo be added to previously created boards.
-                  Boards can be deleted which will in turn remove all pins in that board. Modal is utilized so that images are the focus.  
-                  </p>
-                  <p className="whatsNext">
-                  What's Next: 
-                  Users will be able to view other users' profiles which will show their pins and boards.
-                  Users will be able to search pins by hashtag.
-                  Users will have the ability to like pins which will then display in a generated "Likes" board.
-                  </p>
-                </div>
                 </CardDeck>
                 </Col>
             </Row>
