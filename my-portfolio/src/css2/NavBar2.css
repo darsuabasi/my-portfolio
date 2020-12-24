@@ -19,7 +19,6 @@
 
 .nav-selected:active {
     text-decoration: line-through (var(--myRed)) !important;
-    font-size: xx-large !important;
 }
 
 .nav-selected:hover {
