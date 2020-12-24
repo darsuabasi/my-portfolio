@@ -149,7 +149,7 @@ const NewProject = () => {
                   <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2}/>
                   <h2 className="projectName top"> Pinterest Clone</h2>
                   <div className="codeDiv">
-                    <a className="appLink" href="https://mock-trest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
+                    <a className="appLink" href="https://lifetrest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
                     <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest" target="_blank">Check out the code.</a>
                   </div>
                   <p className="bioForTheProject">
