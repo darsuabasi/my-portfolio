@@ -35,7 +35,9 @@ const NewProject = () => {
                 <CardDeck sm={4} className="allTheCards"> 
 
                 <div className="projectThree">
-                  <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2}/>
+                    <a href="https://lifetrest.netlify.app/" target="_blank"> 
+                        <img className="appScreenshots" alt="pinterestApp" style={{width:"350px", height:"192px"}} src={pinterestApp2} />
+                    </a>
                   <h2 className="projectName top"> Lifetrest</h2>
                   <div className="codeDiv">
                     <a className="appLink" href="https://lifetrest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
@@ -76,7 +78,9 @@ const NewProject = () => {
                     </Card> */}
 
                     <div className="projectOne">
-                  <img  className="appScreenshots" alt="zoovioApp" href="https://zoovio.netlify.app/" target="_blank" style={{width:"350px", height:"192px"}} src={zoovioApp}/>
+                        <a href="https://zoovio.netlify.app/" target="_blank"> 
+                            <img className="appScreenshots" alt="zoovioApp" href="https://zoovio.netlify.app/" target="_blank" style={{width:"350px", height:"192px"}} src={zoovioApp}/>
+                        </a>
                   <h2 className="projectName top"> ZooVio</h2>
                     <div className="codeDiv">
                       <a className="appLink" href="https://zoovio.netlify.app/" target="_blank">Keep Track of Your Pets! <span role="img" alt="smile emoji"> 😁 </span> </a>
@@ -124,7 +128,9 @@ const NewProject = () => {
 
 
                 <div className="projectTwo">
-                  <img className="appScreenshots" alt="allAboutTheGreenApp" style={{width:"350px", height:"192px"}} src={aatgApp}/>
+                    <a href="https://github.com/Ohidurr/AllAboutTheGreen" target="_blank">
+                        <img className="appScreenshots" alt="allAboutTheGreenApp" style={{width:"350px", height:"192px"}} src={aatgApp}/>
+                    </a>
                   <h2 className="projectName top"> All About the Green </h2>
                   <div className="codeDiv"> 
                     <a className="checkOutTheCode" href="https://github.com/darsuabasi/AllAboutTheGreen" target="_blank"> Check out the code.</a>
