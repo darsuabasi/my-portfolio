@@ -5,7 +5,7 @@ import Typing from 'react-typing-animation';
 import mePic from '../assets/mePic.jpg';
 import '../css2/NewAbout.css'
 import Col from 'react-bootstrap/Col';
-import AboutBG from '../assets/AboutBG.mp4';
+
 // import NavBar2 from './NavBar2';
 
 const NewAbout = () => {
@@ -20,7 +20,7 @@ const NewAbout = () => {
       };
 
     return (
-        <Container className="col-12 aboutMainDiv">
+        <Container loading="lazy" className="col-12 aboutMainDiv">
             {/* <NavBar2/> */}
 
             {/* <div className="videoContain">
@@ -49,8 +49,8 @@ const NewAbout = () => {
                     <h1 className="welcomeToMyPortal"> You've entered the coolest portal thus far created by moi. </h1>
                     <Typing className="typedUp">
                         <h1 className="myMiniIntro"> Coder by day, judoka by night,</h1>
-                        <h2 className="myMiniIntro"> baddie on the weekends... </h2>
-                        <h3 className="myMiniIntro"> sometimes </h3>
+                        <h2 className="myMiniIntro"> author on weekends... </h2>
+                        <h3 className="myMiniIntro"> ..sometimes </h3>
                     </Typing>
                     <img className="picOfMe2" style={{width:"450px"}} alt="uduakabasi" src={mePic}/>
 
