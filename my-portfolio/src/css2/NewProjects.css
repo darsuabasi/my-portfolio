@@ -1,4 +1,429 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
 :root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+    --shadowColor: rgba(0, 0, 0, 0.253);
+    --wineBurgandy: rgb(116, 16, 16);
+    --wineYellow: rgba(255, 199, 126);
+    --pureBlack: #000000;
+    /* --greyScale: rgba(0, 15, 64, 5); */
+    --greyScale: rgba(153, 147, 147);
+    --whiteScale: rgba(255, 255, 255, 0.76);
+}
+
+.projectMain {
+    height: 100vh;
+    width: 100vw;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden !important;
+    background-image: url('../assets/ProjectsBG4.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: absolute !important;
+
+}
+
+.subContain {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 6rem;
+    height: 85vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    overflow-y: scroll;
+}
+
+.sheCodes {
+    /* grid-row-start: 2;
+    grid-row-end: 5; */
+    margin-bottom: 1rem !important;
+}
+
+.styleProj {
+    color: var(--myRed);
+    text-decoration: line-through var(--pureWhite);
+    font-style: italic;
+}
+
+.styleProj:hover {
+    color: var(--pureWhite);
+    text-decoration: line-through var(--myRed);
+}
+
+
+.allTheCards {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.appScreenshots {
+    border-radius: 1rem;
+    position: relative;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+    height: 500px;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.projectOne, .projectTwo, .projectThree {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--pureBlack);
+    color: var(--wineBurgandy);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 1rem;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 5.25s;
+}
+
+.image__overlay:hover {
+    opacity: 0.95;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--pureWhite);
+    text-decoration: none;
+}
+
+.image__title:hover {
+    text-decoration: underline linear-gradient(to right, brown , tan);;
+    background-image: linear-gradient(to right, pink , orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image__description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    color: var(--pureWhite);
+    width: 80%;
+}
+
+
+
+.image__link {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--pureWhite);
+    text-decoration: none;
+}
+
+.image__link:hover {
+    text-decoration: underline linear-gradient(to right, brown , tan);;
+    background-image: linear-gradient(to right, pink , orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.appScreenshots:hover {
+    /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+    transition:transform 4s ease;
+    transform: scale(1.1);
+    flex-grow: 1;    */
+}
+
+.projectName.top {
+    /* color: var(--myRed); 
+    margin-top: 7%; */
+}
+
+.projectName.top:hover {
+    /* text-decoration: line-through #ffffff; */
+}
+
+.codeDiv {
+    /* align-content: center;
+    text-align: center;
+    justify-content: space-between; */
+}
+
+
+.appLink {
+    /* color: var(--myRed);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700; */
+}
+
+.appLink:hover {
+    /* text-decoration: line-through #ffffff !important;
+    color: var(--myRed); */
+}
+
+.checkOutTheCode {
+    /* align-content: center;
+    text-align: center;
+    color: var(--myRed);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-weight: 700; */
+}
+
+.checkOutTheCode:hover {
+    /* text-decoration: line-through #ffffff !important;
+    color: var(--myRed); */
+}
+
+.bioForTheProject {
+    /* overflow-wrap: break-word;
+    color: var(--pureWhite);
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: italic;
+    text-align: start; */
+    /* width: 25rem; */
+}
+
+.bioForTheProject:hover {
+    /* color: var(--myRed); */
+}
+
+.whatsNext {
+    /* width: 25rem; */
+    /* overflow-wrap: break-word;
+    padding-top: 1.5%;
+    color: transparent;
+    text-decoration: line-through #cb0000;
+    font-variant: small-caps;
+    font-weight: 700; 
+    text-align: center;
+    font-style: italic; */
+}
+
+.whatsNext:hover {
+    /* color: var(--pureWhite);
+    text-decoration: none; */
+}
+
+
+
+
+/* @media only screen and (width: 320px) and (height: 568px) { 
+    .sheCodes {
+        margin-top: 40rem !important;
+    }
+
+    .styleProj {
+        color: var(--myRed);
+        text-decoration: line-through var(--pureWhite);
+        margin-top: 30% !important;
+        font-style: italic;
+    }
+} */
+
+/* @media only screen and (max-width: 390px) {
+
+
+
+    .bioForTheProject {
+        width: auto;
+        text-align: start !important;
+    }
+
+    .sheCodes {
+        grid-row-start: 2;
+        grid-row-end: 5;
+        margin-top: 13rem !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    .whatsNext {
+        width: auto;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: auto;
+    }
+
+    .subContain {
+        width: auto;
+        margin-right: -0rem !important;
+        margin-left: 0.3rem !important;
+        padding: 0 !important;
+    }
+    
+    .allTheCards {
+        width: 18rem;
+        height: 38rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-left: 0.4rem !important;
+        justify-items: center;
+    }
+
+    .appScreenshots {
+        width: 270px !important;
+    }
+}
+
+@media (min-width: 550px) and (min-height: 701px) {
+    .projectMain {
+        background-size: cover; 
+    }
+} */
+
+
+/* @media (min-width: 1500px) {
+    .bioForTheProject {
+        width: 27rem;
+    }
+    
+    .whatsNext {
+        width: 27rem;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 27rem;
+    }
+
+    .sheCodes {
+        margin-top: -2rem;
+    }
+
+    .subContain {
+        width: 90rem;
+        margin-right: -0rem !important;
+        margin-left: 0rem !important;
+        padding: 0 !important;
+    }
+    
+    .allTheCards {
+        width: 90rem;
+        height: 40rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-right: 0rem !important;
+        justify-content: space-evenly;
+    }
+
+    .appScreenshots {
+        width: 400px !important;
+        height: 250px !important;
+    }
+} */
+
+
+
+/* @media (min-width: 2100px) {
+    .bioForTheProject {
+        width: 30rem;
+    }
+    
+    .whatsNext {
+        width: 30rem;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 30rem;
+    }
+
+    .sheCodes {
+        margin-top: -4rem;
+    }
+
+    .subContain {
+        width: 120rem;
+        margin-right: -0rem !important;
+        margin-left: 0.3rem !important;
+        padding: 0 !important;
+        justify-content: space-evenly;
+
+    }
+    
+    .allTheCards {
+        width: 120rem;
+        height: 44rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: center;
+        padding: 0px !important;
+        margin-right: -0.5rem !important;
+        justify-content: space-evenly;
+    }
+
+    .appScreenshots {
+        width: 400px !important;
+        height: 250px !important;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------- */
+/* :root {
     --myRed: #cb0000;
     --borderRed: #c42323;
     --pureWhite: #ffffff;
@@ -167,10 +592,6 @@
 }
 
 @media only screen and (max-width: 390px) {
-    /* .projectMain {
-        /* overflow-y: hidden !important; */
-    /* } */
-
 
     .bioForTheProject {
         width: auto;
@@ -306,4 +727,4 @@
         width: 400px !important;
         height: 250px !important;
     }
-}
+} */

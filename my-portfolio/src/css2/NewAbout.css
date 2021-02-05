@@ -25,13 +25,13 @@
 
 .aboutMeParagraphContainer {
     margin-top: 14rem;
-    height: 60rem !important;
+    height: 62rem !important;
 }
 
 .aboutSubMain2 {
     text-align: center;
     width: auto;
-    height: 32rem !important;
+    height: 36rem !important;
     overflow-x: hidden;
     overflow-y: scroll;
     box-shadow: 5px 10px 5px 10px var(--myRed);
