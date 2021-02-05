@@ -11,22 +11,18 @@ import '../css2/NewContact.css';
 
 const NewContact = () => {
     return (
-        <Container fluid className="contactContainer">
-            <div className="div4Intro">
+        <Container loading="lazy" fluid className="contactContainer">
+            {/* <div className="div4Intro">
                 <Typing>
                     <h1 className="styleContact"> 
                         Need My Skills? 
                         <div> 
                             <h1 className="styleContact2"> 
                                 Want To Chat? </h1>
-                                {/* <div> 
-                                    file:///Users/dylanabasiurua/Downloads/Resume_Uduakabasi%20Abasiurua.pdf
-                                    <a href="https://docs.google.com/document/d/18I_rL7ZO-yweUZFtvAM87RNCOFIO6Wvufd5D4D-_aek/edit?usp=sharing"><h2 className="styleResume">My Resume!</h2></a>
-                                </div> */}
                         </div>
                     </h1>
                 </Typing>
-            </div>
+            </div> */}
 
             <div className="contactMainDiv">
                 <CardDeck className="allTheCardsContact">
