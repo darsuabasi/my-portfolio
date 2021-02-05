@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css2/Zoovio.css';
+import '../../css2/Lifetrest.css';
 // import zoovioLandingpage from '../../projectASSETS/zoovioLandingpage.png';
 import zoovioUsersignup from '../../projectASSETS/zoovioUsersignup.png';
 import zoovioDoclogin from '../../projectASSETS/zoovioDoclogin.png';

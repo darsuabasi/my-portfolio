@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../css2/Lifetrest.css';
 import aatfSearch from '../../projectASSETS/aatfSearch.gif';
 import aatgLogo from '../../projectASSETS/aatgLogo.png';
 import aatgCF from '../../projectASSETS/aatgCF.gif';
