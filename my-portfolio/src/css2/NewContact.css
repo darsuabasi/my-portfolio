@@ -18,26 +18,26 @@
     justify-content: center;
 }
 
-.div4Intro {
+/* .div4Intro {
     width: 10rem !important;
     height: 7rem !important;
     margin-top: 6rem;
     margin-bottom: 1.5rem;
-}
+} */
 
-.styleContact {
+/* .styleContact {
     font-variant: small-caps;
     color: #cb0000;
     margin-left: -5rem;
     font-style: italic;
     position: static;
     font-size: 24px !important;
-}
+} */
 
-.styleContact2 {
+/* .styleContact2 {
     margin-left: 4rem;
     font-size: 24px !important;
-}
+} */
 
 .lessTrivialCard, .bookMeCard, .randomOnTwitterCard {
     background-color: var(--myRed);
@@ -89,7 +89,7 @@
     margin-right: 0.5rem;
     margin-left: 1rem;
     padding: 10px;
-    margin-top: -7rem;
+    margin-top: 8rem;
 }
 
 .bookMeCard {
@@ -122,7 +122,7 @@
     }
 
     .allTheCardsContact {
-        height: 24rem;
+        height: 30rem;
     }
 
     .resumeBody {
@@ -134,7 +134,7 @@
     }
 
     .contactMainDiv {
-        margin-top: -14rem;
+        margin-top: -10rem;
     }
 }
 
@@ -164,19 +164,19 @@
     }
 
     .allTheCardsContact {
-        height: 24rem;
+        height: 30rem;
     }
 
     .resumeBody {
         margin-bottom: 1.5rem;
     }
 
-    .div4Intro {
+    /* .div4Intro {
         margin-top: -2.5rem;
-    }
+    } */
 
     .contactMainDiv {
-        margin-top: -10rem;
+        margin-top: -8rem;
     }
 }
 
@@ -200,3 +200,58 @@
         background-size: 3400px 1500px !important;
     }
 }
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+    .contactMainDiv {
+        margin-top: 15rem;
+    }
+
+    .allTheCardsContact {
+    width: auto;
+        height: 39rem;
+        column-gap: 0.5rem;
+        overflow-y: scroll !important;
+        justify-content: space-evenly;
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        padding: 10px;
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (width: 768px) and (height: 1024px) {
+    .contactMainDiv {
+        margin-top: -10rem;
+    }
+
+    .allTheCardsContact {
+        width: auto;
+        height: 39rem;
+        column-gap: 0.1rem;
+        overflow-y: scroll !important;
+        justify-content: space-evenly;
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        padding: 10px;
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (width: 1366px) and (height: 1024px) {
+    .contactMainDiv {
+        margin-top: 10rem;
+    }
+
+    .allTheCardsContact {
+        width: auto;
+        height: 39rem;
+        column-gap: 0.1rem;
+        overflow-y: scroll !important;
+        justify-content: space-evenly;
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        padding: 10px;
+        margin-top: 8rem;
+    }
+}
+
