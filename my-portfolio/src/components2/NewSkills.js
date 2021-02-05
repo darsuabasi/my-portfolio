@@ -33,7 +33,7 @@ const NewSkills = () => {
     // const tadaFlip = merge(tada, flip);
 
     return (    
-        <div className="skillsMain">
+        <div loading="lazy" className="skillsMain">
             <div className="skillsHeading">
         <Typing>
           <h1 className="styleSkills"> 
