@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+:root {
+    --myRed: #cb0000;
+    --borderRed: #c42323;
+    --pureWhite: #ffffff;
+    --shadowColor: rgba(0, 0, 0, 0.253);
+    --wineBurgandy: rgb(116, 16, 16);
+    --wineYellow: rgba(255, 199, 126);
+    --pureBlack: #000000;
+    /* --greyScale: rgba(0, 15, 64, 5); */
+    --greyScale: rgba(153, 147, 147);
+    --whiteScale: rgba(255, 255, 255, 0.76);
+}
+
+.soloproject-main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/blankbg.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: absolute !important;
+    overflow: hidden !important;
+}
+
+.soloproject-sub-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow-y: scroll;
+    width: 100vw;
+    padding-left: 6.5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    height: 90vh;
+}
+
+.introDiv {
+    height: 50%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.single-proj-title {
+    color: #fff;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 50px;
+    /* text-decoration: var(--myRed) underline; */
+}
+
+.style-link-proj-header {
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 40px;
+    color: #fff;
+}
+
+.styleLinkInProj {
+    text-decoration: none;
+    color: #fff;
+    font-size: 45px;
+}
+
+.styleLinkInProj:hover {
+    text-decoration: line-through var(--myRed);
+    color: #fff;
+}
+
+.single-proj-bio {
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.single-proj-bio:hover {
+    color: var(--pureBlack);
+}
+
+.imageDiv-singleprojects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 25px;
+    padding-bottom: 25px;
+    margin-top: -3%;
+}
+
+.project-single-images {
+    width: 600px;
+    height: 350px;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.image__imgimg {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    height: 350px;
+    width: 600px;
+    position: relative;
+}
+
+.image__overlay__two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--pureBlack);
+    color: var(--wineBurgandy);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 0.5rem !important;
+}
+
+.image__overlay__two--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay__two > * {
+    transform: translateY(20px);
+    transition: transform 5.25s;
+}
+
+.image__overlay__two:hover {
+    opacity: 0.85;
+}
+
+.image__overlay__two:hover > * {
+    transform: translateY(0);
+}
+
+
+.app-demo-video-div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    color: #fff;
+    padding: 2%;
+}
+
+.app-demo-sub-video-div {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.project-screenshot-div {
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.image__description__singleproj {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+    color: var(--pureWhite);
+    width: 80%;
+}
+
+.demo-video-show {
+        display: none;
+    }
+
+.single-proj-demo-heading {
+    font-variant: small-caps;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1310px) {
+    .introDiv {
+        height: 50%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .imageDiv-singleprojects {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -3%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .project-single-images {
+        width: 900px;
+        height: 550px;
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .image__imgimg {
+        display: block;
+        width: 100%;
+        border-radius: 0.5rem;
+        height: 550px;
+        width: 900px;
+        position: relative;
+    }
+
+    .project-screenshot-div {
+        width: 100vw;
+        height: 100%;
+        position: relative;
+        width: 900px;
+        height: 550px;
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1000px) {
+
+    .soloproject-main {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../assets/blankbg.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        position: absolute !important;
+        overflow: hidden !important;
+    }
+
+    .soloproject-sub-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 10%;
+        height: 85vh;
+    }
+
+    .introDiv {
+        max-height: 30%;
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .imageDiv-singleprojects {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -3%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .project-single-images {
+        max-width: 680px;
+        min-width: 500px;
+        max-height: 400px;
+        min-height: 350px;
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .image__imgimg {
+        display: block;
+        width: 100%;
+        border-radius: 0.5rem;
+        max-width: 680px;
+        min-width: 500px;
+        max-height: 400px;
+        min-height: 350px;
+        position: relative;
+    }
+
+    .project-screenshot-div {
+        width: 100vw;
+        height: 100%;
+        position: relative;
+        max-width: 680px;
+        min-width: 500px;
+        max-height: 400px;
+        min-height: 350px;
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .single-proj-bio {
+        font-size: 17px;
+        color: var(--pureWhite);
+        font-variant: small-caps;
+    }
+
+    .single-proj-bio:hover {
+        color: var(--pureBlack);
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 700px) {
+
+    .soloproject-main {
+        height: 100vh;
+        width: 100%;
+        background-image: url('../assets/blankbg.png');
+        background-size: cover;
+        background-repeat: no-repeat; 
+        position: absolute !important;
+        overflow: hidden !important;
+    }
+
+    .soloproject-sub-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-top: 15%;
+        height: 85vh;
+    }
+
+    .introDiv {
+        height: 40%;
+        max-width: 700px;
+        min-width: 500px;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .imageDiv-singleprojects {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: -3%;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .project-single-images {
+        width: 400px;
+        height: 250px;
+        border-radius: 0.5rem;
+        position: relative;
+    }
+
+    .image__imgimg {
+        display: block;
+        width: 100%;
+        border-radius: 0.5rem;
+        height: 250px;
+        width: 400px;
+        position: relative;
+    }
+
+    .project-screenshot-div {
+        width: 100vw;
+        height: 100%;
+        position: relative;
+        width: 400px;
+        height: 250px;
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .single-proj-bio {
+        font-size: 12px;
+        color: var(--pureWhite);
+        font-variant: small-caps;
+    }
+}
