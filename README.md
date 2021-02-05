@@ -14,7 +14,7 @@ Besides my code, I wanted to make my site a bit more relaxed and add a bit of my
 I loved putting it together. If you want to get in touch, defintely make your way over to the contact page where you can reach me 
 via Twitter, Instagram, LinkedIn and Email. My resume is also linked there as well. 
 
-## [My Portfolio Site](https://uduakabasiabasiurua.com/ "Uduakabasi's Portfolio")
+## [My Portfolio Site](http://uduakabasiabasiurua.com/ "Uduakabasi's Portfolio")
 Enjoy :)
 
 
