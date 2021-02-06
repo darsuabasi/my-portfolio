@@ -11,7 +11,7 @@ import '../css2/NewContact.css';
 
 const NewContact = () => {
     return (
-        <Container loading="lazy" fluid className="contactContainer">
+        <Container fluid className="contactContainer">
             {/* <div className="div4Intro">
                 <Typing>
                     <h1 className="styleContact"> 

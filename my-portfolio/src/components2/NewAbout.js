@@ -20,7 +20,7 @@ const NewAbout = () => {
       };
 
     return (
-        <Container loading="lazy" className="col-12 aboutMainDiv">
+        <Container className="col-12 aboutMainDiv">
             {/* <NavBar2/> */}
 
             {/* <div className="videoContain">

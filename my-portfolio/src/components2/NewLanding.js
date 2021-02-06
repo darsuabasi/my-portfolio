@@ -12,7 +12,7 @@ const NewLanding = ({ Component, pageProps, router }) => {
     return (
         <Container fluid className="newLandingDiv">
  
-            <div loading="lazy" className="majorDiv"> 
+            <div className="majorDiv"> 
                 <motion.div
                 // key={router.route}
                 initial="initial"

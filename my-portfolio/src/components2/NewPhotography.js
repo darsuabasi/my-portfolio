@@ -2,7 +2,6 @@ import React from 'react';
 import Typing from 'react-typing-animation';
 import '../css2/NewPhotography.css';
 import GalleryGrid2 from './NewPhotoGallery/GalleryGrid2';
-import '../css2/NewPhotography.css'
 
 const NewPhotography = () => {
   return (

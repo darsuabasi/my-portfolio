@@ -19,7 +19,6 @@
 .projectMain {
     height: 100vh;
     width: 100vw;
-    /* display: flex; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -37,16 +36,17 @@
     margin-top: 6rem;
     height: 85vh;
     width: 100vw;
-    text-align: center;
+    
     justify-content: center;
-    align-items: center;
+    justify-self: center;
     justify-items: center;
+
+    align-items: center;
+    text-align: center;
     overflow-y: scroll;
 }
 
 .sheCodes {
-    /* grid-row-start: 2;
-    grid-row-end: 5; */
     margin-bottom: 1rem !important;
 }
 
@@ -82,7 +82,7 @@
     display: block;
     width: 100%;
     border-radius: 1rem;
-    height: 500px;
+    height: 600px;
     position: relative;
     margin-bottom: 0.5rem;
 }
@@ -91,8 +91,8 @@
     width: 100vw;
     height: 100%;
     position: relative;
-    width: 900px;
-    height: 500px;
+    width: 1100px;
+    height: 600px;
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
@@ -153,8 +153,6 @@
     width: 80%;
 }
 
-
-
 .image__link {
     font-size: 2em;
     font-weight: bold;
@@ -169,85 +167,133 @@
     -webkit-text-fill-color: transparent;
 }
 
-.appScreenshots:hover {
-    /* box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
-    transition:transform 4s ease;
-    transform: scale(1.1);
-    flex-grow: 1;    */
+
+@media only screen and (max-width: 1450px) {
+
+    .image__img {
+        height: 550px;
+        overflow: hidden;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 950px;
+        height: 550px;
+        overflow: hidden;
+    }
+
+    .image__title {
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 1rem !important; 
+    }
+
+    .image__description {
+        margin-top: 0.5rem;
+        width: 90%;
+    }
 }
 
-.projectName.top {
-    /* color: var(--myRed); 
-    margin-top: 7%; */
+@media only screen and (max-width: 1000px) {
+
+    .image__img {
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 750px;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .image__title {
+        font-size: 24px !important;
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 1rem !important; 
+    }
+
+    .image__description {
+        font-size: 18px;
+        margin-top: 0.5rem;
+        width: 90%;
+    }
+
+    .image__link {
+        font-size: 20px !important;
+    }
 }
 
-.projectName.top:hover {
-    /* text-decoration: line-through #ffffff; */
+@media only screen and (max-width: 800px) {
+
+    .image__img {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .projectOne, .projectTwo, .projectThree {
+        width: 540px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .image__title {
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 3rem !important; 
+    }
+
+    .image__description {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        width: 95%;
+        height: 85px;
+    }
+
+    .image__link {
+        font-size: 14px !important;
+    }
 }
 
-.codeDiv {
-    /* align-content: center;
-    text-align: center;
-    justify-content: space-between; */
-}
+@media only screen and (max-width: 550px) {
 
+    .image__img {
+        height: 250px;
+        overflow: hidden;
+    }
 
-.appLink {
-    /* color: var(--myRed);
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: 700; */
-}
+    .projectOne, .projectTwo, .projectThree {
+        width: 450px;
+        height: 250px;
+        overflow: hidden;
+    }
 
-.appLink:hover {
-    /* text-decoration: line-through #ffffff !important;
-    color: var(--myRed); */
-}
+    .image__title {
+        font-size: 16px !important;
+        font-weight: bold;
+    }
 
-.checkOutTheCode {
-    /* align-content: center;
-    text-align: center;
-    color: var(--myRed);
-    text-decoration: none;
-    font-variant: small-caps;
-    font-weight: 700; */
-}
+    .app-title-yh {
+       margin-top: 3rem !important; 
+    }
 
-.checkOutTheCode:hover {
-    /* text-decoration: line-through #ffffff !important;
-    color: var(--myRed); */
-}
+    .image__description {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        width: 95%;
+        height: 85px;
+    }
 
-.bioForTheProject {
-    /* overflow-wrap: break-word;
-    color: var(--pureWhite);
-    font-variant: small-caps;
-    font-weight: 700;
-    font-size: 16px;
-    font-style: italic;
-    text-align: start; */
-    /* width: 25rem; */
-}
-
-.bioForTheProject:hover {
-    /* color: var(--myRed); */
-}
-
-.whatsNext {
-    /* width: 25rem; */
-    /* overflow-wrap: break-word;
-    padding-top: 1.5%;
-    color: transparent;
-    text-decoration: line-through #cb0000;
-    font-variant: small-caps;
-    font-weight: 700; 
-    text-align: center;
-    font-style: italic; */
-}
-
-.whatsNext:hover {
-    /* color: var(--pureWhite);
-    text-decoration: none; */
+    .image__link {
+        font-size: 14px !important;
+    }
 }
 
 

@@ -40,7 +40,7 @@ const NewProject = () => {
                             </a>
 
                             <div class="image__overlay image__overlay--primary">
-                                <NavLink class="image__title" className="nav-link nav-selected" exact to="/projects/lifetrest">
+                                <NavLink class="image__title" className="nav-link nav-selected app-title-yh" exact to="/projects/lifetrest">
                                 Lifetrest
                                 </NavLink>
                                 <p class="image__description">
