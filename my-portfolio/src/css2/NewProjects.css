@@ -27,7 +27,6 @@
     background-size: cover;
     background-repeat: no-repeat; 
     position: absolute !important;
-
 }
 
 .subContain {
@@ -296,6 +295,127 @@
     }
 }
 
+
+@media only screen and (max-width: 420px) {
+    .image__img {
+        height: 210px;
+        overflow: hidden;
+    }
+
+    .projectOne, .projectTwo, .projectThree  {
+        width: 320px;
+        height: 210px;
+        overflow: hidden;
+        margin-top: -2rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .image__title {
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 3rem !important; 
+    }
+
+    .image__description {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        width: 95%;
+        height: 85px;
+    }
+
+    .image__link {
+        font-size: 14px !important;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+    .image__img {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .projectOne, .projectTwo, .projectThree  {
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        margin-top: 1rem !important;
+        margin-bottom: 0.3rem;
+    }
+
+    .image__title {
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 3rem !important; 
+    }
+
+    .image__description {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        width: 95%;
+        height: 85px;
+    }
+
+    .image__link {
+        font-size: 14px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 300px) {
+
+    .sheCodes {
+        margin-bottom: 0.3rem !important;
+    }
+    
+    .styleProj {
+        color: var(--myRed);
+        text-decoration: line-through var(--pureWhite);
+        font-style: italic;
+        font-size: 28px;
+    }
+
+
+    .image__img {
+        height: 180px;
+    }
+
+    .projectOne, .projectTwo, .projectThree  {
+        width: 250px;
+        height: 180px;
+        overflow: hidden;
+        margin-top: 1rem !important;
+        margin-bottom: 0.3rem;
+    }
+
+    .image__title {
+        font-size: 16px !important;
+        font-weight: bold;
+    }
+
+    .app-title-yh {
+       margin-top: 3rem !important; 
+    }
+
+    .image__description {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        width: 95%;
+        height: 85px;
+    }
+
+    .image__link {
+        font-size: 14px !important;
+    }
+
+}
 
 
 
