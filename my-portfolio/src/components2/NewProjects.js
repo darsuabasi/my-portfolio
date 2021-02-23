@@ -15,6 +15,7 @@ import aatgApp from '../assets/aatgApp.png';
 import lifetrestApp from '../assets/lifetrestApp.png';
 import lifetrestLandingpage from '../projectASSETS/lifetrestLandingpage.gif';
 import aatgLanding from '../projectASSETS/aatgLanding.png';
+import nowThatsCapLanding from '../projectASSETS/nowThatsCapLanding.png';
 // import letsgoApp from '../assets/letsgoApp.png';
 import { Link, NavLink } from 'react-router-dom'
 
@@ -33,6 +34,74 @@ const NewProject = () => {
                 </Col>
                 <Col>
                     <CardDeck sm={4} className="allTheCards"> 
+                        <div className="projectThree">
+                            <a href="https://nowthatscap.netlify.app/" target="_blank"> 
+                                <img loading="lazy" className="appScreenshots" alt="nowthatscapApp" class="image__img" src={nowThatsCapLanding} />
+                            </a>
+
+                            <div class="image__overlay image__overlay--primary">
+                                <NavLink class="image__title" className="nav-link nav-selected app-title-yh" exact to="/projects/now-thats-cap">
+                                #NowThatsCap
+                                </NavLink>
+                                <p class="image__description">
+                                    Yurrrr, you've officially entered NYC. Welcome to #NowThatsCap. I along with 4 other talented engineers had the pleasure 
+                                    of participating in a week long Hackathon during the month of February. Can you tell we were inspiring by the Black NYC culture?
+                                    We wanted to created a fun way for people to learn more about Black culture because it is the BLUEPRINT. After winning Crowd Favorite
+                                    during Demo Day, the only Award given, we as a team decided to make this bigger than just us. As of now, this game is in Beta Mode as 
+                                    we plan on scaling the app so if you catch any bugs, don't hesitate to let us know or follow us on social media to keep up with updates.
+                                    Till then, get your knowledge up, NYC style, Beta mode.
+                                </p>
+                                <p class="image__description">
+                                Built with React.js.
+                                </p>
+
+                                <a style={{fontVariant:'small-caps', fontSize:'28px'}} className="image__link" href="https://github.com/ashyamanning/now-thats-cap" target="_blank"> The Code </a> 
+                                <a style={{fontVariant:'small-caps', fontSize:'24px'}} className="image__link" href="https://nowthatscap.netlify.app/" target="_blank"> Live Site</a>
+                                <NavLink style={{fontVariant:'small-caps', fontSize:'20px'}} class="image__title" className="nav-link nav-selected" exact to="/projects/now-thats-cap">
+                                Click Me to View More
+                                </NavLink>
+                            </div>
+                        {/* <h2 className="projectName top"> Lifetrest</h2>
+                        <div className="codeDiv">
+                            <a className="appLink" href="https://lifetrest.netlify.app/" target="_blank"> Happy Pinning <span role="img" alt="smile emoji"> 😁 </span>  </a>
+                            <a className="checkOutTheCode" href="https://github.com/darsuabasi/CTAPintrest" target="_blank">Check out the code.</a>
+                        </div> */}
+                        {/* <p className="bioForTheProject">
+                        Fullstack React app. Users can signup/login through Google Firebase, create pins and boards with images.
+                        Users can view their boards and pins on their profile. New pins can aslo be added to previously created boards.
+                        Boards can be deleted which will in turn remove all pins in that board. Modal is utilized so that images are the focus.  
+                        </p> */}
+                            {/* <p className="whatsNext">
+                                What's Next: 
+                                The ability to delete pins.
+                    
+                                The ability to like pins which will then display in a generated "Likes" board.
+                            </p> */}
+                        </div>
+                    {/* <Card className="fullCard" style={{height: '30rem', width: '24rem'}}>
+                        <Card.Img className="projectPic" variant="top" alt="zoovioApp" style={{ width:"350px", height:"200px"}} src={zoovioApp} />
+                        <Card.Body>
+                            <Card.Title className="projectName">ZooVio</Card.Title>
+                            <a className="appLink" href="https://zoovio.netlify.app/">Keep Track of Your Pets! <span role="img" alt="smile emoji"> 😁 </span> </a>
+                            <a className="checkOutTheCode" href="https://github.com/darsuabasi/zoovio">    Check out the code.</a>
+                            <Card.Text className="projectInfo">
+                                Fullstack React web app where users can log in using Google Firebase, create and manage tasks 
+                                for their pets + view in calendar. Users can search for vetenarians.
+                                Also, with Covoid-19 in mind, users can instant message vetenarians or have virtual appointments 
+                                Vetenarians can also log in utilizing the vet's portal. However, due to security reasons, 
+                                doctor's can not sign up at the momment.
+                            </Card.Text>
+                            <Card.Subtitle className="projectNext">
+                                What's Next: 
+                                Expanding servives for more than just vetnarians. Looking into more complex verification
+                                system for doctor sign-ups. Ending/Declining incoming virtual appointment feature. Document upload
+                                for doctor's portal and payment method for services.
+                            </Card.Subtitle>
+                        </Card.Body>
+                    </Card> */}
+
+
+
 
                         <div className="projectThree">
                             <a href="https://lifetrest.netlify.app/" target="_blank"> 
