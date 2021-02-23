@@ -27,7 +27,7 @@ const NowThatsCap = () => {
                     <h1 className="single-proj-title">#NowThatsCap</h1>
 
                     <div> 
-                        <h1 className="style-link-proj-header"> Explore the  <a className="styleLinkInProj" href="https://nowthatscap.netlify.app/" target="_blank"> "live site"</a> or check out the <a className="styleLinkInProj" href="https://github.com/ashyamanning/now-thats-cap" target="_blank"> "code"</a></h1>
+                        <h1 className="style-link-proj-header"> Explore the  <a className="styleLinkInProj" href="https://nowthatscap.netlify.app/" target="_blank"> "live site"</a> or check out the <a className="styleLinkInProj" href="https://github.com/darsuabasi/now-thats-cap" target="_blank"> "code"</a></h1>
                     </div>
 
                     <p className="single-proj-bio"> A front-end web application inspired by Black New York City culture, is the easy and breezy 

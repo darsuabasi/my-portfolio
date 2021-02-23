@@ -15,7 +15,7 @@ const Aatg = () => {
                     <h1 className="single-proj-title">All About the Green</h1>
 
                     <div> 
-                        <h1 className="style-link-proj-header"> Check out the <a className="styleLinkInProj" href="https://github.com/Ohidurr/AllAboutTheGreen" target="_blank"> "code"</a></h1>
+                        <h1 className="style-link-proj-header"> Check out the <a className="styleLinkInProj" href="https://github.com/darsuabasi/AllAboutTheGreen" target="_blank"> "code"</a></h1>
                     </div>
 
                     <p className="single-proj-bio"> Fullstack React app coded for Pursuit's 48 hour Hackathon, sponsored by CodeAcademy.
