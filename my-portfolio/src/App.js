@@ -15,6 +15,7 @@ import NewLanding from './components2/NewLanding';
 import Lifetrest from './components2/NewSingleProjects/Lifetrest';
 import Zoovio from './components2/NewSingleProjects/Zoovio';
 import Aatg from './components2/NewSingleProjects/Aatg';
+import NowThatsCap from './components2/NewSingleProjects/NowThatsCap';
 
 
 
@@ -51,6 +52,10 @@ function App({ Component, pageProps, router, location }) {
         
                   <Route exact path={"/contact"}>
                     <NewContact/>
+                  </Route>
+
+                  <Route exact path="/projects/now-thats-cap">
+                    <NowThatsCap/>
                   </Route>
 
                   <Route exact path={"/projects/lifetrest"}>
